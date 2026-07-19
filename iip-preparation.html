@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IIP Preparation</title>
+<style>
+  :root { --green:#075E54; --accent:#2058E8; --bg:#f0f2f5; --warn:#b45309; }
+  * { margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI',system-ui,sans-serif; }
+  body { background:var(--bg); min-height:100vh; padding-bottom:40px; }
+  header { background:var(--green); color:#fff; padding:22px 24px; }
+  header h1 { font-size:24px; font-weight:700; }
+  header p { font-size:14px; opacity:.9; margin-top:6px; }
+  .wrap { max-width:900px; margin:24px auto; padding:0 16px; display:flex; flex-direction:column; gap:18px; }
+  .card { background:#fff; border-radius:14px; padding:20px 22px; box-shadow:0 4px 18px rgba(0,0,0,.07); }
+  .card h2 { font-size:16px; color:var(--green); margin-bottom:12px; display:flex; align-items:center; gap:8px; }
+  .card p.note { font-size:13.5px; color:#555; line-height:1.6; margin-bottom:10px; }
+  label.item { display:flex; align-items:flex-start; gap:10px; padding:7px 4px; font-size:14px; line-height:1.5; cursor:pointer; border-radius:8px; }
+  label.item:hover { background:#f6f8ff; }
+  label.item input { margin-top:3px; accent-color:var(--accent); width:16px; height:16px; flex-shrink:0; }
+  label.item input:checked + span { text-decoration:line-through; color:#999; }
+  .tip { background:#fff8eb; border-left:4px solid var(--warn); border-radius:8px; padding:10px 14px; font-size:13.5px; color:#7c4a03; margin-top:10px; line-height:1.6; }
+  .good { background:#ecfdf3; border-left:4px solid #15803d; border-radius:8px; padding:10px 14px; font-size:13.5px; color:#14532d; margin-top:10px; line-height:1.6; }
+  .weather { display:flex; gap:10px; flex-wrap:wrap; margin-top:8px; }
+  .wstat { flex:1; min-width:120px; background:#f6f8ff; border-radius:10px; padding:12px; text-align:center; }
+  .wstat .n { font-size:20px; font-weight:700; color:var(--accent); }
+  .wstat .l { font-size:11.5px; color:#777; margin-top:3px; }
+  .progress { position:sticky; top:0; z-index:5; background:var(--green); color:#fff; padding:10px 24px; font-size:13px; display:flex; justify-content:space-between; }
+  footer { text-align:center; padding:16px; font-size:12px; color:#888; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🇬🇧 IIP Preparation</h1>
+  <p>India → Birmingham, UK · 26 July – 1 August · International Immersion Program</p>
+</header>
+<div class="progress"><span>Packing progress</span><span id="prog">0 items done</span></div>
+
+<div class="wrap">
+
+  <div class="card">
+    <h2>💷 Money Plan</h2>
+    <p class="note">Main spend money: ₹30,000 loaded on the <b>Niyo card</b> arranged through college (roughly £260–280).</p>
+    <div class="good"><b>Cash plan confirmed:</b> Take only ~£50 in cash — UK is almost fully cashless. Card/phone tap works everywhere: buses, trains, shops, even street food stalls. Withdraw more from an ATM there only if genuinely needed.</div>
+    <label class="item"><input type="checkbox"><span>Niyo card activated + PIN set + app installed &amp; logged in</span></label>
+    <label class="item"><input type="checkbox"><span>International transactions enabled on the card (test one small online payment in ₹ first)</span></label>
+    <label class="item"><input type="checkbox"><span>£50 cash — ask for small notes (£5 / £10), not a £50 note (many shops refuse them)</span></label>
+    <label class="item"><input type="checkbox"><span>One backup card (any other bank's international debit/credit card) — keep it in a different bag from the Niyo card</span></label>
+    <label class="item"><input type="checkbox"><span>Add card to Google Pay / Apple Pay for tap payments</span></label>
+    <div class="tip"><b>ATM tip:</b> Use only ATMs marked <i>"FREE cash withdrawals"</i> (bank ATMs, supermarket ATMs). Avoid Euronet / travel-money ATMs — they charge £2–3 per withdrawal and offer a bad rate ("decline conversion, pay in GBP" if asked). Check the Niyo app for its own per-withdrawal fee.</div>
+  </div>
+
+  <div class="card">
+    <h2>🌦️ Weather — do NOT pack heavy winter clothes</h2>
+    <p class="note">Birmingham, 26 Jul – 1 Aug (peak UK summer):</p>
+    <div class="weather">
+      <div class="wstat"><div class="n">19–23°C</div><div class="l">Daytime high</div></div>
+      <div class="wstat"><div class="n">12–14°C</div><div class="l">Night / early morning</div></div>
+      <div class="wstat"><div class="n">☔ Often</div><div class="l">Light rain / drizzle any day</div></div>
+    </div>
+    <div class="tip">It will feel chilly compared to India, especially evenings — but it's <b>not winter</b>. One windcheater + one hoodie is enough. No sweaters-under-jacket, no thermals, no heavy coat.</div>
+    <label class="item"><input type="checkbox"><span>1 windcheater / light waterproof jacket (most important item)</span></label>
+    <label class="item"><input type="checkbox"><span>1 warm hoodie or light sweater for evenings</span></label>
+    <label class="item"><input type="checkbox"><span>Compact folding umbrella</span></label>
+  </div>
+
+  <div class="card">
+    <h2>🛂 Documents (most important — check twice)</h2>
+    <label class="item"><input type="checkbox"><span>Passport with valid UK visa</span></label>
+    <label class="item"><input type="checkbox"><span>Flight tickets (print + phone)</span></label>
+    <label class="item"><input type="checkbox"><span>College IIP letter / invitation letter from UK institution</span></label>
+    <label class="item"><input type="checkbox"><span>Accommodation address &amp; booking confirmation (immigration may ask)</span></label>
+    <label class="item"><input type="checkbox"><span>Travel insurance policy (print + phone)</span></label>
+    <label class="item"><input type="checkbox"><span>College ID card</span></label>
+    <label class="item"><input type="checkbox"><span>2–4 passport-size photos</span></label>
+    <label class="item"><input type="checkbox"><span>Photocopies of passport + visa kept in a different bag, and scans saved on phone + Google Drive</span></label>
+    <label class="item"><input type="checkbox"><span>Emergency contacts noted: family, program coordinator, Indian High Commission Birmingham</span></label>
+  </div>
+
+  <div class="card">
+    <h2>🔌 Electronics</h2>
+    <div class="tip"><b>UK uses Type G (big 3-pin) sockets — Indian plugs do NOT fit.</b> Voltage is the same 230V, so no converter needed, only adapters.</div>
+    <label class="item"><input type="checkbox"><span>2 × India-to-UK (Type G) travel adapters, or 1 universal adapter</span></label>
+    <label class="item"><input type="checkbox"><span>Phone + charger + cable</span></label>
+    <label class="item"><input type="checkbox"><span>Power bank — must go in CABIN bag, never check-in</span></label>
+    <label class="item"><input type="checkbox"><span>Earphones / headphones</span></label>
+    <label class="item"><input type="checkbox"><span>SIM plan: international roaming pack OR a UK eSIM (Giffgaff / Voxi / EE — ~£10 for the week, much cheaper than roaming)</span></label>
+  </div>
+
+  <div class="card">
+    <h2>👕 Clothes &amp; Shoes (7 days)</h2>
+    <label class="item"><input type="checkbox"><span>1–2 formal outfits — IIP usually includes company/university visits</span></label>
+    <label class="item"><input type="checkbox"><span>5–6 casual tops / t-shirts, 2–3 jeans/trousers</span></label>
+    <label class="item"><input type="checkbox"><span>Comfortable walking shoes (you'll walk a LOT) — break in new shoes before flying</span></label>
+    <label class="item"><input type="checkbox"><span>1 formal shoe pair + flip-flops for the room</span></label>
+    <label class="item"><input type="checkbox"><span>Enough socks + innerwear + sleepwear</span></label>
+  </div>
+
+  <div class="card">
+    <h2>🧴 Toiletries, Medicines &amp; Food</h2>
+    <label class="item"><input type="checkbox"><span>Basic toiletries — all liquids in cabin bag must be ≤100 ml, in a clear pouch</span></label>
+    <label class="item"><input type="checkbox"><span>Personal medicines with doctor's prescription + basics: paracetamol, ORS, band-aids, motion-sickness tablets</span></label>
+    <label class="item"><input type="checkbox"><span>Dry packaged snacks if vegetarian (biscuits, namkeen, ready-to-eat) — sealed &amp; labelled</span></label>
+    <div class="tip"><b>UK customs:</b> No meat or dairy products allowed in from India (this includes ghee sweets, paneer items). Sealed dry vegetarian snacks are fine.</div>
+  </div>
+
+  <div class="card">
+    <h2>🧳 Luggage &amp; Final Checks</h2>
+    <label class="item"><input type="checkbox"><span>Check airline baggage allowance (usually 23 kg check-in + 7 kg cabin) — weigh bags at home</span></label>
+    <label class="item"><input type="checkbox"><span>Trolley bag + small backpack/day bag for daily use</span></label>
+    <label class="item"><input type="checkbox"><span>Luggage tags + small locks; leave 3–4 kg free for shopping/return gifts</span></label>
+    <label class="item"><input type="checkbox"><span>Empty reusable water bottle (fill after security — UK tap water is drinkable)</span></label>
+    <label class="item"><input type="checkbox"><span>Pen in cabin bag (for any forms)</span></label>
+    <label class="item"><input type="checkbox"><span>Download offline: Google Maps of Birmingham, Google Translate, airline app, Niyo app</span></label>
+    <label class="item"><input type="checkbox"><span>Inform bank/family of travel dates; note UK emergency number: 999</span></label>
+  </div>
+
+</div>
+<footer>IIP Preparation · Birmingham 26 Jul – 1 Aug · progress saves in this browser</footer>
+
+<script>
+const boxes = document.querySelectorAll('input[type=checkbox]');
+const KEY = 'iip-prep-v1';
+const saved = JSON.parse(localStorage.getItem(KEY) || '[]');
+boxes.forEach((b, i) => {
+  b.checked = !!saved[i];
+  b.addEventListener('change', () => {
+    localStorage.setItem(KEY, JSON.stringify([...boxes].map(x => x.checked)));
+    update();
+  });
+});
+function update(){
+  const done = [...boxes].filter(x => x.checked).length;
+  document.getElementById('prog').textContent = done + ' / ' + boxes.length + ' items done';
+}
+update();
+</script>
+</body>
+</html>
