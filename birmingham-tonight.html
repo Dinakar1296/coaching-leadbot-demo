@@ -1,0 +1,468 @@
+<title>Birmingham Tonight — Mon 27 July</title>
+
+<style>
+  :root {
+    --ground:      #EFF2F1;
+    --panel:       #FFFFFF;
+    --panel-edge:  #D3DBD8;
+    --ink:         #14201E;
+    --ink-soft:    #4C5B58;
+    --ink-faint:   #778783;
+    --accent:      #0E5B58;
+    --accent-soft: #DCEAE7;
+    --signal:      #9E2F2A;
+    --signal-soft: #F6E4E2;
+    --brass:       #8A6D22;
+
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground:      #0D1614;
+      --panel:       #141F1D;
+      --panel-edge:  #263533;
+      --ink:         #E6EDEB;
+      --ink-soft:    #A3B3AF;
+      --ink-faint:   #74847F;
+      --accent:      #5FBDB2;
+      --accent-soft: #17302D;
+      --signal:      #E08A80;
+      --signal-soft: #2B1A18;
+      --brass:       #C9A951;
+    }
+  }
+
+  :root[data-theme="light"] {
+    --ground:      #EFF2F1;
+    --panel:       #FFFFFF;
+    --panel-edge:  #D3DBD8;
+    --ink:         #14201E;
+    --ink-soft:    #4C5B58;
+    --ink-faint:   #778783;
+    --accent:      #0E5B58;
+    --accent-soft: #DCEAE7;
+    --signal:      #9E2F2A;
+    --signal-soft: #F6E4E2;
+    --brass:       #8A6D22;
+  }
+
+  :root[data-theme="dark"] {
+    --ground:      #0D1614;
+    --panel:       #141F1D;
+    --panel-edge:  #263533;
+    --ink:         #E6EDEB;
+    --ink-soft:    #A3B3AF;
+    --ink-faint:   #74847F;
+    --accent:      #5FBDB2;
+    --accent-soft: #17302D;
+    --signal:      #E08A80;
+    --signal-soft: #2B1A18;
+    --brass:       #C9A951;
+  }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  .wrap {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 3rem 1.25rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  /* ---------- masthead ---------- */
+
+  .masthead { display: flex; flex-direction: column; gap: .75rem; }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: .74rem;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+
+  h1 {
+    font-family: var(--serif);
+    font-size: clamp(2.1rem, 7vw, 3.1rem);
+    line-height: 1.05;
+    font-weight: 600;
+    letter-spacing: -.015em;
+    text-wrap: balance;
+  }
+
+  .standfirst {
+    font-size: 1.05rem;
+    color: var(--ink-soft);
+    max-width: 34rem;
+  }
+
+  /* ---------- generic section ---------- */
+
+  section { display: flex; flex-direction: column; gap: 1.1rem; }
+
+  h2 {
+    font-family: var(--serif);
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--panel-edge);
+  }
+
+  h2 .num {
+    font-family: var(--mono);
+    font-size: .7rem;
+    letter-spacing: .1em;
+    color: var(--accent);
+    vertical-align: .55em;
+    margin-right: .6rem;
+  }
+
+  p { max-width: 40rem; }
+  p + p { margin-top: .7rem; }
+
+  strong { font-weight: 650; }
+  em { font-style: italic; color: var(--ink-soft); }
+
+  /* ---------- verdict ---------- */
+
+  .verdicts { display: flex; flex-direction: column; gap: .9rem; }
+
+  .verdict {
+    display: grid;
+    grid-template-columns: 4.5rem 1fr;
+    gap: 1rem;
+    align-items: start;
+    background: var(--panel);
+    border: 1px solid var(--panel-edge);
+    border-radius: 2px;
+    padding: 1rem 1.1rem;
+  }
+
+  .verdict .call {
+    font-family: var(--mono);
+    font-size: .72rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    padding-top: .25rem;
+  }
+  .verdict.yes  .call { color: var(--accent); }
+  .verdict.no   .call { color: var(--signal); }
+  .verdict.note .call { color: var(--brass); }
+
+  .verdict .body { font-size: .97rem; }
+  .verdict .body b { font-family: var(--serif); font-size: 1.08rem; font-weight: 600; display: block; margin-bottom: .15rem; }
+
+  /* ---------- timeline ---------- */
+
+  .timeline { display: flex; flex-direction: column; }
+
+  .leg {
+    display: grid;
+    grid-template-columns: 4.5rem 1fr;
+    gap: 1.1rem;
+    padding: 0 0 1.5rem;
+    position: relative;
+  }
+
+  .leg::before {
+    content: "";
+    position: absolute;
+    left: 4.5rem;
+    top: .55rem;
+    bottom: 0;
+    width: 1px;
+    background: var(--panel-edge);
+    transform: translateX(-.55rem);
+  }
+  .leg:last-child::before { display: none; }
+
+  .leg .clock {
+    font-family: var(--mono);
+    font-variant-numeric: tabular-nums;
+    font-size: .84rem;
+    color: var(--accent);
+    padding-top: .18rem;
+    text-align: right;
+    position: relative;
+  }
+
+  .leg .clock::after {
+    content: "";
+    position: absolute;
+    right: -.55rem;
+    top: .55rem;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--accent);
+    transform: translateX(50%);
+  }
+
+  .leg h3 {
+    font-family: var(--serif);
+    font-size: 1.12rem;
+    font-weight: 600;
+    margin-bottom: .2rem;
+  }
+
+  .leg p { font-size: .95rem; color: var(--ink-soft); }
+  .leg p strong { color: var(--ink); }
+
+  /* ---------- alert ---------- */
+
+  .alert {
+    background: var(--signal-soft);
+    border-left: 3px solid var(--signal);
+    border-radius: 0 2px 2px 0;
+    padding: 1.15rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+  }
+  .alert .label {
+    font-family: var(--mono);
+    font-size: .72rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--signal);
+  }
+  .alert p { font-size: .96rem; }
+
+  /* ---------- table ---------- */
+
+  .scroller { overflow-x: auto; }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 24rem;
+    font-size: .93rem;
+  }
+  th, td {
+    text-align: left;
+    padding: .6rem .8rem .6rem 0;
+    border-bottom: 1px solid var(--panel-edge);
+    vertical-align: top;
+  }
+  th {
+    font-family: var(--mono);
+    font-size: .7rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    font-weight: 400;
+  }
+  td.time {
+    font-family: var(--mono);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    color: var(--accent);
+  }
+  td.shut { color: var(--ink-faint); }
+
+  /* ---------- checklist ---------- */
+
+  ul.checks { list-style: none; display: flex; flex-direction: column; gap: .6rem; }
+  ul.checks li {
+    display: grid;
+    grid-template-columns: 1.4rem 1fr;
+    gap: .3rem;
+    font-size: .95rem;
+    color: var(--ink-soft);
+  }
+  ul.checks li::before {
+    content: "□";
+    color: var(--accent);
+    font-size: 1.05rem;
+    line-height: 1.45;
+  }
+
+  footer {
+    font-size: .82rem;
+    color: var(--ink-faint);
+    border-top: 1px solid var(--panel-edge);
+    padding-top: 1.25rem;
+  }
+  footer a { color: var(--accent); }
+
+  @media (max-width: 30rem) {
+    .verdict, .leg { grid-template-columns: 3.4rem 1fr; gap: .8rem; }
+    .leg::before { left: 3.4rem; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">Monday 27 July · Warwick campus → Birmingham → back</div>
+    <h1>Five hours in Birmingham, after everything has shut</h1>
+    <p class="standfirst">You land at 19:00. Every museum is already closed. That's fine — the thing worth seeing in Birmingham at night is the water, and it's a four-minute walk from the station.</p>
+  </header>
+
+  <section>
+    <h2><span class="num">01</span>The call</h2>
+    <div class="verdicts">
+      <div class="verdict yes">
+        <div class="call">Go</div>
+        <div class="body"><b>Birmingham</b>Trains run five an hour and the last one back leaves at 00:41. It is the only option in range that survives a 19:00 start.</div>
+      </div>
+      <div class="verdict no">
+        <div class="call">Skip</div>
+        <div class="body"><b>Stratford-upon-Avon</b>Last direct train out is ~19:27 — you'd arrive as it leaves. Shakespeare's Birthplace, Holy Trinity, Anne Hathaway's Cottage all close at 17:00. Go on a Saturday morning instead.</div>
+      </div>
+      <div class="verdict note">
+        <div class="call">Already in</div>
+        <div class="body"><b>The canals</b>Your friends are right, but the canals <em>are</em> Birmingham — Gas Street Basin is in the city centre. Don't treat it as a separate trip, and don't give it ten minutes. It's the main event.</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span>Getting there</h2>
+    <div class="timeline">
+      <div class="leg">
+        <div class="clock">17:50</div>
+        <div>
+          <h3>University Interchange → Coventry</h3>
+          <p>Bus <strong>12X</strong> (direct) or <strong>11</strong> to Coventry city centre. Roughly 20–25 min. Don't aim for Canley station — only about six trains a day stop there.</p>
+        </div>
+      </div>
+      <div class="leg">
+        <div class="clock">18:25</div>
+        <div>
+          <h3>Walk to Coventry station</h3>
+          <p>About 10 minutes from the Bull Yard / Pool Meadow area. Buy an <strong>off-peak day return</strong> to Birmingham, not two singles — after 18:30 you're in off-peak territory anyway.</p>
+        </div>
+      </div>
+      <div class="leg">
+        <div class="clock">18:40</div>
+        <div>
+          <h3>Coventry → Birmingham New Street</h3>
+          <p><strong>20–25 minutes, direct, five trains an hour.</strong> No need to plan a specific one — turn up and take the next.</p>
+        </div>
+      </div>
+      <div class="leg">
+        <div class="clock">19:05</div>
+        <div>
+          <h3>Out at New Street</h3>
+          <p>Leave via <strong>Grand Central</strong> and exit onto Stephenson Street. Sunset is <strong>21:14</strong> — you have two hours of daylight, so spend them outside and save the interiors for after dark.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span>The evening</h2>
+    <div class="timeline">
+      <div class="leg">
+        <div class="clock">19:05</div>
+        <div>
+          <h3>Bullring, Selfridges, St Martin's</h3>
+          <p>Two minutes from the station and it <strong>closes at 20:00 on a Monday</strong>, so do it first or not at all. The Selfridges disc façade and the old church sitting underneath it is the one postcard shot in Birmingham that isn't the canals.</p>
+        </div>
+      </div>
+      <div class="leg">
+        <div class="clock">19:35</div>
+        <div>
+          <h3>Victoria Square → Chamberlain Square → Paradise</h3>
+          <p>Ten minutes uphill on foot. Council House, the "Floozie in the Jacuzzi" fountain, then through the new Paradise development into Centenary Square with its ground fountains. Free, outdoors, all open.</p>
+        </div>
+      </div>
+      <div class="leg">
+        <div class="clock">20:00</div>
+        <div>
+          <h3>Library of Birmingham</h3>
+          <p>The gold filigree building on Centenary Square. Open until <strong>20:00 Mon–Thu</strong>, so this is a walk-in-and-look, not a sit-down — worth the detour for the atrium alone. <em>The rooftop Secret Garden closes at 15:00, so don't climb up expecting it.</em></p>
+        </div>
+      </div>
+      <div class="leg">
+        <div class="clock">20:20</div>
+        <div>
+          <h3>Gas Street Basin and Brindleyplace — the main event</h3>
+          <p>Drop down from Broad Street to the water. Do the loop properly: <strong>Gas Street Basin → the 1827 cast-iron footbridge → Brindleyplace → under Black Sabbath Bridge → back along to the Mailbox</strong>. Give it a full 60–90 minutes. You'll catch it in daylight, at sunset, and lit up — which is the whole reason to be here tonight.</p>
+        </div>
+      </div>
+      <div class="leg">
+        <div class="clock">21:30</div>
+        <div>
+          <h3>Dinner, canalside or Chinatown</h3>
+          <p>Two easy calls. <strong>Brindleyplace / the Mailbox</strong> puts you at a table over the water without moving. <strong>The Arcadian &amp; Chinatown</strong> (8 min from the Bullring, near the Hippodrome) is livelier and open later on a quiet Monday.</p>
+        </div>
+      </div>
+      <div class="leg">
+        <div class="clock">22:30</div>
+        <div>
+          <h3>One last thing, if you still have legs</h3>
+          <p>Rooftop drink on the 25th floor of <strong>The Cube</strong> at Wharfside Street — 360° over the city, and it's already on your canal loop. Or if you'd rather do something than look at something, <strong>Golf Fang</strong> in Digbeth runs Mondays 15:00–22:00, last activity 21:00 — book ahead and slot it earlier in the night.</p>
+        </div>
+      </div>
+      <div class="leg">
+        <div class="clock">23:00</div>
+        <div>
+          <h3>Walk back to New Street</h3>
+          <p>Everything above is inside a 15-minute walk of the station. Aim to be on a train by <strong>23:15</strong>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span>Getting back — read this one</h2>
+    <div class="alert">
+      <div class="label">Last train · 00:41</div>
+      <p>The last Birmingham New Street → Coventry train leaves at <strong>00:41</strong>, and there are five an hour before that. So midnight is comfortable, not tight — but the <em>bus</em> from Coventry back to campus stops well before the train does, and late July is the summer timetable.</p>
+      <p><strong>Plan for a taxi at the Coventry end.</strong> Coventry station → campus is a 10-minute ride, roughly <strong>£8–12</strong> on Uber or Bolt, split between you. Leave Birmingham on the <strong>23:15-ish train</strong> and you're on campus by about 00:00.</p>
+      <p>Don't gamble on catching the last 12X. Check its final departure on the National Express app before you leave campus tonight — if it's gone, the taxi is the plan, not the emergency.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span>Don't waste the walk</h2>
+    <p>These are shut by the time you arrive. Cross them off now rather than discovering it at 19:30.</p>
+    <div class="scroller">
+      <table>
+        <thead>
+          <tr><th>Place</th><th>Closes</th><th>Verdict</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Birmingham Museum &amp; Art Gallery</td><td class="time">17:00</td><td class="shut">Shut. Needs a daytime trip.</td></tr>
+          <tr><td>Birmingham Back to Backs</td><td class="time">17:00</td><td class="shut">Shut, and timed tickets only.</td></tr>
+          <tr><td>Sherborne Wharf canal boat trips</td><td class="time">~16:00</td><td class="shut">Daytime only — no evening sailings.</td></tr>
+          <tr><td>Library rooftop Secret Garden</td><td class="time">15:00</td><td class="shut">Terraces close early. Building still open till 20:00.</td></tr>
+          <tr><td>Birmingham Cathedral</td><td class="time">~18:00</td><td class="shut">Churchyard still worth crossing.</td></tr>
+          <tr><td>Jewellery Quarter museums</td><td class="time">17:00</td><td class="shut">Pubs open, nothing to see.</td></tr>
+          <tr><td>Custard Factory, Digbeth</td><td class="time">18:00</td><td class="shut">Monday is Digbeth's day off. Skip it after dark.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span>Before you leave campus</h2>
+    <ul class="checks">
+      <li><span>Check the last 12X back from Coventry to University Interchange tonight — then assume you'll miss it.</span></li>
+      <li><span>Buy off-peak day returns at Coventry, or on the app, before boarding.</span></li>
+      <li><span>Have Uber or Bolt installed with a payment card that works in the UK.</span></li>
+      <li><span>Glance at the Birmingham Hippodrome listings — a show runs from tonight through 7 August, and a 19:30 curtain would replace the whole itinerary above.</span></li>
+      <li><span>Take a light jacket. It's a canal at 22:00.</span></li>
+    </ul>
+  </section>
+
+  <footer>
+    Times checked against National Rail / Trainline, West Midlands Railway, Bullring, Library of Birmingham and Golf Fang listings on 27 July 2026. Opening hours change without notice — confirm anything you'd be upset to miss.
+  </footer>
+
+</div>
