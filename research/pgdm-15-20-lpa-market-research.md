@@ -1,18 +1,37 @@
-# PGDM fresher: 15–20 LPA in 90 days
+# 15–20 LPA from FORE's final placements
 
 Market research for Marketing, Information Systems & Analytics, and AI roles in India.
-Compiled 23 Sep 2026. Window: 23 Sep to 23 Dec 2026. Profile: fresher, PGDM.
+Compiled 23 Sep 2026. Window: 23 Sep to 23 Dec 2026. Profile: current FORE School of Management PGDM student (2025–27 batch), fresher.
 
 Figures come from public job-board reports, salary aggregators and placement reports. They vary widely by source; treat them as bands, not quotes.
 
 ## Bottom line
 
-15–20 LPA is achievable but above the typical PGDM fresher band. It is roughly the median of a top-20 school (IMT Ghaziabad 2026 median: ₹17 LPA), while most marketing freshers land ₹5–12 LPA. Getting there off-campus means targeting the few role types whose fresher bands reach 15+.
+At FORE, 15–20 LPA means the upper half of the batch. FORE's 2023–25 batch had a median of ₹15.2 LPA and an average of ₹16.4–16.8 LPA. Over the next 90 days, the job is to win shortlists at the recruiters that pay 15+ and convert them.
 
-- **Best bet:** analyst and product roles with a GenAI layer. AI/ML hiring is up 31% YoY.
-- **Most openings:** Analytics. GCCs are expanding fresher intake, but a generic Business Analyst pays ₹8–12 LPA without domain + AI proof.
-- **Hardest:** Marketing. 15+ exists only in growth/product marketing at funded tech, or brand roles at top campuses.
-- **Timing:** Sep–Nov is the second-biggest fresher hiring window; December is near-dead. Front-load October and November.
+- **Best lane:** analytics with a GenAI layer. BFSI, IT/ITES and MR & consulting made up 79% of FORE's offers, and AI/ML hiring is up 31% YoY.
+- **Marketing as a domain, not the track:** consumer, FMCG and auto recruiters gave only about 10% of FORE's offers.
+- **Timing:** FORE's final process typically peaks Nov–Dec (80% of the 2021–23 batch was placed by December). Prepare in Sep–Oct, execute in Nov–Dec.
+- **Off-campus upside:** APM and product-analyst roles pay freshers the most, and those companies aren't among FORE's commonly listed recruiters. Apply to them in parallel.
+
+## How FORE's last batch placed (PGDM 2023–25)
+
+| Metric | Figure |
+|---|---|
+| Median CTC | ₹15.2 LPA |
+| Average CTC | ₹16.4–16.8 LPA (sources differ) |
+| Highest CTC | ₹29 LPA |
+| Offers | 466 from 138 recruiters (45 new), incl. 49 PPOs/PPIs, across PGDM, IB, FM, BDA |
+
+| Sector | Share of offers |
+|---|---|
+| BFSI | 33% |
+| IT / ITES | 23% |
+| Market research & consulting | 23% |
+| FMCG, FMCD, auto, manufacturing | 10% |
+| Other | 11% |
+
+Recruiters named in recent reports: Deloitte, EY, KPMG, Accenture, McKinsey, JPMorgan Chase, ICICI Bank, HDFC Bank, HSBC, Amazon, HCL, Infosys, Cognizant, Nestlé, Asian Paints, ITC, Mercedes-Benz, Kia. A clean 2024–26 report wasn't published in the sources checked; aggregators mix batch years, so confirm with the placement committee.
 
 ## Market signals
 
@@ -41,6 +60,7 @@ Overall fresher demand is rising, but plain entry-level analyst work is shrinkin
 | AI product analyst | AI / Product | 14.5 (avg) | Glassdoor |
 | APM, product-native companies | AI / Product | 12–22 | EICTA IIT Kanpur |
 | AI PM, product startups | AI / Product | 12–22 | Product Leadership |
+| FORE PGDM median 2023–25 | Benchmark | 15.2 | FORE / Shiksha |
 | IMT Ghaziabad median 2026 | Benchmark | 17 | MBAUniverse |
 | XLRI PGDM-GM median 2025-26 | Benchmark | 27 | KollegeApply |
 | MDI Gurgaon PGDM median 2026 | Benchmark | 29 | Cracku |
@@ -59,37 +79,42 @@ CTC often includes variable pay and joining bonuses. Compare fixed pay when offe
 
 > Business / Product Analyst who uses GenAI on marketing and customer data.
 
-One story covering all three domains: analytics is the core skill, AI is the premium, marketing is the domain.
+One story covering all three domains: analytics is the core skill, AI is the premium, marketing is the domain. At FORE it maps onto the three sectors that make 79% of offers.
 
-- **Primary:** GCC and BFSI analytics (Business Analyst, Decision/Data Analyst)
-- **Stretch:** product companies (APM, Product Analyst, AI Product Analyst)
-- **Parallel:** consulting (Accenture S&C, Big 4 AI and analytics practices)
-- **Fallback:** growth / category associate at consumer tech
+- **Primary on campus, BFSI (33%):** analytics, risk and business-analyst roles at JPMorgan, ICICI Bank, HDFC Bank, HSBC and similar.
+- **Parallel on campus, MR & consulting (23%):** Deloitte, EY, KPMG, Accenture analytics, AI and strategy practices, not audit.
+- **Also on campus, IT/ITES (23%):** HCL, Infosys, Cognizant, Accenture business-analyst, pre-sales or AI-consulting roles over delivery.
+- **Upside off campus:** APM / product analyst at Flipkart, Swiggy, Razorpay, Meesho, PhonePe.
 
-## 12-week plan
+## 13-week campus plan
 
-**Weeks 1–2 (23 Sep – 6 Oct): Position**
-- Lock the lane and two exact job titles; rewrite resume and LinkedIn headline.
-- Target list of 60 companies: 25 GCC/BFSI, 20 product, 15 consulting/analytics.
-- Diagnose: timed SQL (joins, window functions), Excel, one case, one guesstimate.
-- Start one cert that fills the biggest gap.
+**Weeks 1–2 (23 Sep – 6 Oct): Lock in**
+- If you hold a PPO or PPI, note its CTC and learn the placement committee's rules on accepting or opting out.
+- Get last year's company-wise CTC and role sheet from the placement committee or seniors. Rank targets that paid ₹15 LPA+ in BFSI, IT/ITES and MR & consulting.
+- Finalise the CV in FORE's format: quantified bullets, summer internship result first, one AI line with a real outcome.
+- Diagnose: timed SQL, Excel, one guesstimate, one GD topic.
 
-**Weeks 3–6 (7 Oct – 3 Nov): Build proof, open pipeline**
-- Project 1: marketing funnel + cohort/retention analysis on a public e-commerce dataset (SQL + Power BI + one-page memo).
-- Project 2: GenAI tool that classifies customer reviews or tickets into themes and drafts actions, with a write-up on accuracy checks and failure cases.
-- Publish both with a LinkedIn post each.
-- Weekly: 15 tailored applications, 10 referral asks, 3 informational calls.
+**Weeks 3–6 (7 Oct – 3 Nov): Build shortlist signals**
+- One flagship project: customer or marketing analytics in SQL + Power BI, with a GenAI layer that summarises review themes and suggests actions. One-page memo plus a note on where the AI got it wrong.
+- Enter one or two recruiter-run case competitions.
+- Three calls a week with FORE alumni at target firms.
+- Finish one certificate (PL-300 or GA4) by 3 Nov. Start 5 off-campus applications a week to product companies.
 
-**Weeks 7–10 (4 Nov – 1 Dec): Interview sprint**
-- November is the last strong month before the December slowdown.
-- Daily: one case or guesstimate, five SQL problems, one product-sense or metrics question.
-- Two mock interviews a week.
+**Weeks 7–10 (4 Nov – 1 Dec): Placement-ready**
+- One-page dossier for each of the top 20 targets: business model, recent news, role, interview pattern from seniors.
+- Daily: one GD topic, one guesstimate or case, five SQL problems.
+- Two mock PIs a week. Rehearse the internship and the project in two minutes, with numbers.
+- Attend every pre-placement talk for target firms.
 
-**Weeks 11–13 (2 – 23 Dec): Close, or bridge to January**
-- Negotiate on fixed pay; check joining-bonus clawbacks.
-- No 15+ offer: take ₹12–15 LPA in the right lane (switch at 15–18 months), or hold for the Jan–Mar peak with the pipeline warm.
+**Weeks 11–13 (2 – 23 Dec): Final placement sprint**
+- Refresh the company dossier 48 hours before each process.
+- Debrief every GD and PI within an hour; fix one weakness before the next.
+- Set offer rules in advance (acceptable firms, minimum fixed pay, role fit) and check the dream/one-offer policy.
+- Not placed by late December: the campus process continues into Jan–Mar, which is also the biggest off-campus window. Keep both running.
 
-If applications aren't producing screening calls by week 5, fix positioning (resume, title match, referrals) rather than adding volume.
+Weekly scoreboard: 3 alumni calls, 5 off-campus applications (from week 3), 2 mock PIs (from week 7), 7 GD topics + guesstimates.
+
+If you aren't getting shortlisted by the 15+ recruiters in the first wave, fix the CV (quantified results, role match) rather than preparing for interviews you aren't getting.
 
 ## Skills recruiters screen for
 
@@ -101,14 +126,20 @@ Certificates: pick two or three. Microsoft PL-300 (Power BI), Google Data Analyt
 
 ## Risks
 
-- **College tier** is the biggest swing factor. At top-20 schools 15–20 LPA is roughly the median; at most tier-2/3 schools it is well above the typical ₹5–12 LPA.
+- **Half the batch lands below ₹15.2 LPA.** The CV drives shortlists and GD/PI drives conversion.
+- **Placement policy:** accepting an early, lower offer can lock you out of later processes. Know the dream/one-offer rules.
 - **Seniorized entry roles:** a resume with only tools and certificates won't clear screening.
-- **Calendar:** anything not in interviews by late November likely slips to January.
+- **Calendar:** final processes cluster in Nov–Dec; preparation left for November collides with the processes themselves.
 - **Headline CTC inflation:** variable pay, ESOPs and clawback bonuses distort comparisons.
 - **Source noise:** aggregators disagree (e.g. one guide puts HUL fresher pay at ₹8–10 LPA; another puts the median IIM-campus FMCG offer at ₹15–18 LPA).
 
 ## Sources
 
+- [FORE placements (official)](https://www.fsm.ac.in/placement)
+- [FORE placement process (official)](https://www.fsm.ac.in/placement-process)
+- [Shiksha: FORE placements 2025](https://www.shiksha.com/college/fore-school-of-management-qutab-institutional-area-delhi-272/placement)
+- [Collegedunia: FSM placement](https://collegedunia.com/college/17613-fore-school-of-management-fsm-new-delhi/placement)
+- [Careers360: 80% placed by December](https://news.careers360.com/fore-school-of-management-placements-2022-80-percent-students-placed-by-december/amp)
 - [Tribune: Naukri JobSpeak Aug 2026](https://www.tribuneindia.com/news/ai-roles/ai-ml-hiring-rises-31-pc-yoy-in-august-gcc-recruitment-grows-10-pc-naukri-jobspeak)
 - [White-collar hiring +14% Aug 2026](https://www.thepeoplesboard.com/news/india-white-collar-hiring-rises-14-percent-august-2026/)
 - [Nomura: entry-level hiring decline](https://subkuz.com/news/english/details/ai-creates-new-jobs-in-india-as-freshers-face-declining-entry-level-hiring/211916)
