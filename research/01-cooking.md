@@ -55,9 +55,9 @@ Every recipe is a mix of these five things. Learn them and you can cook anything
 The WHO "Five Keys to Safer Food": **keep clean, separate raw and cooked, cook thoroughly, keep food at safe temperatures, use safe water and raw materials.**
 
 #### The temperature danger zone
-- **5°C to 60°C** is where bacteria grow fastest (FSSAI). At 37°C, bacteria can double every 20 minutes.
+- **5°C to 60°C** is the zone where bacteria can grow to unsafe levels (FSSAI); growth is fastest around 20 to 45°C. At 37°C, bacteria can double every 20 minutes.
 - **Keep cold food at 5°C or below** and **hot food at 60°C or above**.
-- **Never leave cooked food at room temperature for more than 2 hours.** In Indian summers (35°C+), make it **1 hour**.
+- **Never leave cooked food at room temperature for more than 2 hours.** When it's hotter than **32°C** (most Indian summers), make it **1 hour**.
 - **Fridge:** 1°C to 4°C. **Freezer:** -18°C.
 
 #### Safe internal cooking temperatures (USDA, measured with a thermometer at the thickest part)
@@ -72,19 +72,19 @@ The WHO "Five Keys to Safer Food": **keep clean, separate raw and cooked, cook t
 | **Leftovers and reheated food** | **74°C (165°F)**, steaming hot throughout |
 
 #### Indian kitchen specific safety
-- **Rajma (red kidney beans):** raw or undercooked beans contain a toxin (phytohaemagglutinin). **Soak 8+ hours, discard the water, then boil hard for at least 10 minutes** or pressure cook fully. Never cook rajma in a slow cooker from raw.
+- **Rajma (red kidney beans):** raw or undercooked beans contain a toxin (phytohaemagglutinin). **Soak at least 5 hours (overnight is best), discard the water, then boil hard in fresh water (at least 10 minutes by UK guidance; the US FDA advises 30 minutes)** or pressure cook until completely soft. **Warm-but-not-boiling beans (around 80°C) can be up to 5 times more toxic than raw**, which is why slow cookers are dangerous. Canned rajma is already cooked and safe. Never cook rajma in a slow cooker from raw.
 - **Leftover rice:** cool it quickly (spread it out), refrigerate within 1 hour, eat within 24 hours, reheat only once until steaming. Rice left warm can grow *Bacillus cereus*, whose toxin survives reheating.
 - **Curd, raita, chutneys, paneer:** refrigerate. They spoil fast in heat.
 - **Street-style cut fruit / salads:** wash produce in clean running water. Peel if unsure of the water quality.
-- **Pressure cooker safety:** check the gasket and vent before every use. Fill **no more than 2/3** (only **1/2 for dal and beans**, which foam). Never force it open. Let pressure drop fully or use the quick-release method your model allows.
+- **Pressure cooker safety:** check the gasket and vent before every use. Fill **no more than 2/3** in general, **1/2 for foods that expand** (rice), and **only 1/3 for foods that froth**, such as toor dal, moong dal and soybeans (Hawkins guidance). Never force it open. Let pressure drop fully or use the quick-release method your model allows.
 
 #### Other safety rules
 - **Separate:** raw meat never touches ready-to-eat food. Wash the board, knife and hands (20 seconds with soap) after raw meat.
 - **Thaw** in the fridge or under cold running water, never on the counter.
-- **Oil fire:** **never pour water on it.** Turn off the heat and cover the pan with a lid or damp (not dripping) cloth. Keep a lid nearby when frying.
+- **Oil fire:** **never pour water on it, and never move the pan.** If it's safe, turn off the heat, then slide a **metal lid or baking tray** over the pan and leave it covered for at least 30 minutes. (A damp cloth is **no longer recommended** by fire services.) A fire blanket or a wet-chemical (Class F/K) extinguisher also works. If it doesn't go out at once, leave, close the door and call **101 (fire) or 112**. Keep a lid nearby when frying.
 - **Knife safety:** a sharp knife is safer than a dull one (less force, less slipping). Never catch a falling knife. Put a damp cloth under your board so it doesn't slide.
-- **Gas safety:** smell gas? Don't switch anything on or off. Open windows, turn off the regulator, call the gas agency.
-- **Allergens:** peanuts, tree nuts (cashew, almond), milk, eggs, wheat (gluten), soy, fish, shellfish, sesame, mustard. Ask guests.
+- **Gas safety:** smell gas? Don't switch anything on or off, don't light a match, and don't use your phone near the leak. Open windows, turn off the regulator, go outside and call the **LPG emergency helpline 1906** (piped-gas users: your PNG company's emergency number).
+- **Allergens:** peanuts, tree nuts (cashew, almond), milk, eggs, wheat (gluten), soy, fish, shellfish, **sulphites** (on FSSAI's labelling list), sesame, mustard. Ask guests.
 
 ### 1.4 Knife skills
 
@@ -123,7 +123,7 @@ The WHO "Five Keys to Safer Food": **keep clean, separate raw and cooked, cook t
 
 **Key reactions:**
 - **Maillard reaction** (from about 140°C): proteins and sugars brown, creating deep savoury flavour. This is why seared paneer, roasted chicken, toasted bread and **bhuna masala** taste so good. It needs **dry surfaces and high heat**. Wet food steams instead of browning, so pat food dry and don't crowd the pan.
-- **Caramelisation** (from about 160°C): sugar browns (caramelised onions for biryani, jaggery, caramel).
+- **Caramelisation** (from about 160°C): sugar browns (jaggery, caramel, sugar syrup). Deep-browned onions for biryani (birista) are mostly Maillard browning with some caramelisation.
 - **Protein coagulation:** proteins firm up (eggs set around 62 to 70°C). Overcooking squeezes out water, making food dry and rubbery.
 - **Starch gelatinisation:** starches absorb water and swell (rice, pasta, thickening sauces with flour or cornflour).
 - **Emulsification:** mixing fat and water with the help of an emulsifier (mayonnaise, vinaigrette, pasta sauces with pasta water, makhani gravy with cream).
@@ -136,7 +136,7 @@ The WHO "Five Keys to Safer Food": **keep clean, separate raw and cooked, cook t
 | Extra-virgin olive oil | ~190 to 210°C | Sautéing, dressings |
 | Unrefined coconut oil | ~175°C | South Indian cooking, medium heat |
 | Refined sunflower / rice bran / groundnut oil | ~230°C+ | Deep-frying, high-heat cooking |
-| Mustard oil | ~250°C | Bengali, Punjabi, pickles (heat until it just smokes, then cool slightly, to remove pungency) |
+| Mustard oil | ~250°C | Bengali, Punjabi, pickles (traditionally heated until it just smokes, then cooled slightly, to remove pungency; do it briefly with good ventilation, and don't reuse smoked oil repeatedly) |
 | Ghee | ~250°C | Tadka, parathas, high-heat frying, flavour |
 
 **Stove heat levels:**
@@ -155,7 +155,7 @@ The WHO "Five Keys to Safer Food": **keep clean, separate raw and cooked, cook t
 | **Simmering** | 85 to 95°C, gentle bubbles | Slow, even cooking | Dal, curries, rasam, kheer | Soups, stews, sauces |
 | **Poaching** | 70 to 80°C, no bubbles | Delicate cooking | Poached eggs in curry | Poached eggs, fish |
 | **Steaming** | Steam, 100°C | Moist, keeps nutrients | Idli, dhokla, momos, puttu, modak | Vegetables, dumplings, fish |
-| **Pressure cooking** | ~115 to 120°C under pressure | 3 to 4x faster than boiling | Dal, rajma, chana, mutton, rice | Stocks, beans |
+| **Pressure cooking** | ~115 to 120°C under pressure | about 2 to 3x faster than boiling | Dal, rajma, chana, mutton, rice | Stocks, beans |
 | **Sautéing / stir-frying** | High, little oil, keep moving | Quick browning | Sabzis, bhindi fry | Stir-fries, sautéed mushrooms |
 | **Tadka / tempering (chhaunk)** | Very hot fat, seconds | Spices bloom and release flavour into the fat | Dal tadka, sambar, raita, poha | Chilli oil, garlic oil |
 | **Bhuna** | Medium-high, stirring | Frying masala until oil separates from it | Onion-tomato masala, dry mutton bhuna | Soffritto, sofrito, mirepoix |
@@ -178,7 +178,7 @@ The WHO "Five Keys to Safer Food": **keep clean, separate raw and cooked, cook t
 
 **Ayurveda's six tastes (shadrasa):** sweet, sour, salty, pungent, bitter, astringent. A balanced Indian thali includes all six.
 
-**Umami (savoury depth):** tomatoes, onions cooked long, mushrooms, cheese, soy sauce, curry leaves, hing, fermented foods.
+**Umami (savoury depth):** tomatoes, onions cooked long, mushrooms, cheese, soy sauce, fermented foods (curd, idli batter, pickles). Curry leaves and hing add savoury aroma rather than true umami.
 
 **The Indian spice sequence (general rule):**
 1. Heat oil or ghee.
@@ -211,11 +211,11 @@ The WHO "Five Keys to Safer Food": **keep clean, separate raw and cooked, cook t
 | **Rice (pasta method)** | Boil in lots of salted water like pasta, drain at 90% done (best for biryani) |
 | **Toor dal** | 1 cup dal : 3 cups water, pinch of turmeric, pressure cook 3 to 4 whistles. Mash, add tadka |
 | **Roti dough** | 2 cups atta : about 3/4 cup water (add slowly), pinch salt, optional 1 tsp oil. Knead 5 to 8 min until soft, rest 20 to 30 min |
-| **Boiled eggs** (from boiling water) | 6 min = jammy yolk, 8 min = soft-set, 10 to 11 min = hard. Then ice or cold water |
+| **Boiled eggs** (from boiling water) | 6 min = jammy yolk, 8 min = soft-set, 10 to 11 min = hard. Then ice or cold water. **Pregnant people, young children, older adults and anyone with weak immunity should eat only fully set eggs** (Salmonella risk) |
 | **Pasta** | 1 litre water + 10 g salt per 100 g pasta. Cook to al dente (a little bite). Save a cup of pasta water |
 | **Vinaigrette** | 3 parts oil : 1 part acid + salt, pepper, mustard (emulsifier) |
-| **Béchamel (white sauce)** | 1 tbsp butter + 1 tbsp flour (roux) per 1 cup milk. Cook the roux 1 to 2 min, whisk in warm milk, simmer until thick |
-| **Idli/dosa batter** | Idli: 3 to 4 parts rice (or idli rava) : 1 part urad dal (+ a few methi seeds). Dosa: similar, thinner. Soak 4 to 6 hours, grind, ferment 8 to 14 hours in a warm place |
+| **Béchamel (white sauce)** | Per 1 cup milk: 1 tbsp each of butter and flour = thin sauce; **1.5 to 2 tbsp each = medium (for pasta, mac and cheese)**; 3 tbsp = thick. Cook the roux 1 to 2 min, whisk in warm milk, simmer until thick |
+| **Idli/dosa batter** | Idli: 3 to 4 parts rice (or idli rava) : 1 part urad dal (+ a few methi seeds). Dosa: similar, thinner. Soak 4 to 6 hours (overnight also works), grind, add salt, ferment 8 to 14 hours in a warm place (shorter in summer, longer in winter) |
 | **Deep-frying oil** | 175 to 180°C for most things. Too low = greasy, too high = burnt outside, raw inside |
 | **Curd (dahi)** | Boil milk, cool to lukewarm (about 40 to 45°C, comfortably warm to a finger), stir in 1 tsp curd per 500 ml, cover and leave in a warm place 6 to 10 hours |
 
@@ -234,7 +234,7 @@ The WHO "Five Keys to Safer Food": **keep clean, separate raw and cooked, cook t
 - **Leaveners:** **baking soda** needs acid (curd, buttermilk, lemon) and acts immediately. **Baking powder** has its own acid. **Yeast** needs time and warmth (bread, pizza).
 - **Gluten:** kneading builds it (chewy bread). For cakes, mix minimally (soft crumb).
 - **Oven:** always preheat 10 to 15 minutes. Most cakes bake at **175 to 180°C**. Use an oven thermometer if your oven's dial is unreliable (most are).
-- **No oven?** Cakes can be steamed or baked in a pressure cooker (without the whistle and gasket, on a stand over salt or sand) or in an air fryer.
+- **No oven?** Cakes can be steamed in a covered kadai or steamer, or baked in an air fryer. "Cooker cakes" (baking in a pressure cooker without the whistle and gasket) are popular, but long dry heating can warp a cooker base: use an old cooker on low heat if you try it.
 
 ### 1.10 Nutrition and meal planning
 
@@ -248,7 +248,7 @@ The **ICMR-NIN Dietary Guidelines for Indians (2024)** recommend "My Plate for t
 
 **Meal prep strategy (saves hours):**
 - Sunday: cook 1 dal, 1 batch of onion-tomato masala, chopped vegetables, dough for 2 days, boiled chana/rajma.
-- Store: cooked food 3 to 4 days in the fridge; masala base 1 week in the fridge or 3 months frozen.
+- Store: cooked food 3 to 4 days in the fridge; masala base 3 to 4 days in the fridge (same rule) or 3 months frozen in portions.
 - Use a **weekly menu + shopping list** so you don't waste food.
 
 ### 1.11 How to read and follow any recipe
@@ -264,7 +264,7 @@ The **ICMR-NIN Dietary Guidelines for Indians (2024)** recommend "My Plate for t
 
 ## Part 2: 30-Day Plan
 
-About **1 to 1.5 hours per day**. Each day teaches **one skill + one recipe**. Vegetarian swaps are in brackets. Take a photo of every dish and write 2 lines: what went well, what to fix.
+About **1 to 1.5 hours per day**, except the bigger days (**21, 22, 28, 30**), which need **2 to 4 hours**: do them on weekends if you can. Each day teaches **one skill + one recipe**. Vegetarian swaps are in brackets. Take a photo of every dish and write 2 lines: what went well, what to fix.
 
 ### Week 1: Foundations (knife, rice, dal, roti, eggs)
 
@@ -286,10 +286,10 @@ About **1 to 1.5 hours per day**. Each day teaches **one skill + one recipe**. V
 |---|---|---|---|
 | 8 | Sautéing, dry sabzi | **Aloo gobi** or **bhindi fry** | Browning without burning or going soggy (don't crowd the pan) |
 | 9 | **Bhuna**, building a masala base | **Onion-tomato masala** batch (freeze half). Start soaking rajma/chana tonight | Cook until the oil separates |
-| 10 | Legumes, pressure cooking, bean safety | **Chana masala** or **rajma** (boil hard 10 min!) using yesterday's base | Soft beans, thick gravy |
+| 10 | Legumes, pressure cooking, bean safety | **Chana masala** or **rajma** (boil hard in fresh water, 10 min minimum, FDA says 30, or pressure cook until completely soft) using yesterday's base | Soft beans, thick gravy |
 | 11 | Pasta, emulsion with pasta water | **Aglio e olio** (garlic, chilli, olive oil, parsley) | Glossy sauce, not oily |
 | 12 | Simmering, tomato sauce | **Tomato sauce from scratch** + **penne arrabbiata** | Balance sour, sweet and salt |
-| 13 | Roasting / high heat, marinades | **Paneer tikka** (oven, air fryer or tawa) [or chicken tikka, 74°C inside] | Charred edges, juicy inside |
+| 13 | Roasting / high heat, marinades (**soak rajma tonight for Day 14**) | **Paneer tikka** (oven, air fryer or tawa) [or chicken tikka, 74°C inside] | Charred edges, juicy inside |
 | 14 | **Review** | **Rajma chawal + boondi raita + salad** | Full meal in 1 hour |
 
 ### Week 3: Proteins, sauces, frying
@@ -299,7 +299,7 @@ About **1 to 1.5 hours per day**. Each day teaches **one skill + one recipe**. V
 | 15 | Handling raw chicken safely, curry building | **Home-style chicken curry** [soya chunk or mushroom curry] | Use the thermometer: 74°C |
 | 16 | Pan-searing, Maillard, resting | **Pan-seared chicken breast / fish / paneer steak** + sautéed vegetables | Golden crust. Pat dry first. Don't move it for 2 to 3 minutes |
 | 17 | Roux and white sauce | **Béchamel → white sauce pasta** or **mac and cheese** | Lump-free sauce |
-| 18 | Braising / slow cooking, smoke flavour | **Mutton/chicken keema** [**baingan bharta**, roasting brinjal on an open flame] | Deep flavour, tender texture |
+| 18 | Braising / slow cooking, smoke flavour | **Mutton curry** (sear, then simmer low until tender) [**baingan bharta**, roasting brinjal on an open flame] | Deep flavour, tender texture |
 | 19 | Deep-frying safely, oil temperature | **Onion pakora / mirchi bajji** + mint chutney | Oil at 175 to 180°C. Crisp, not oily |
 | 20 | Stocks and soups, sour-spicy balance | **Vegetable stock → tomato soup** or **rasam** | Clear, balanced flavour |
 | 21 | **Review:** cook for others | **Dinner for 2 to 4 people:** 1 curry, 1 dry sabzi, rice, roti, raita | Timing + serving hot |
@@ -361,7 +361,10 @@ About **1 to 1.5 hours per day**. Each day teaches **one skill + one recipe**. V
 - [Cook to a Safe Minimum Internal Temperature, FoodSafety.gov](https://www.foodsafety.gov/print/pdf/node/10?id=safe-min)
 - [Doneness Versus Safety, USDA FSIS](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/doneness-versus-safety)
 - [Food Safety at Home, FSSAI (PDF)](https://fssai.gov.in/upload/knowledge_hub/5ab383c3e66aaFood_Safety_at_Home.pdf)
-- [Temperature Control in Food Safety, India guide](https://velcolegalindia.com/blog/temperature-control-food-safety-india)
+- [Danger Zone 40°F to 140°F, USDA FSIS](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/danger-zone-40f-140f)
+- [Hawkins Futura pressure cooker manual (fill limits, PDF)](https://www.hawkinscookers.com/Cookbooks/FuturaPC_Eng.pdf)
+- [Chip pan fires advice, Fire and Safety Centre](https://www.fireandsafetycentre.co.uk/advice-centre/chip-pan-fires/)
+- [How to avoid poisoning from red beans, Food Safety News](https://www.foodsafetynews.com/2021/05/how-to-avoid-poisoning-from-red-beans/)
 - [WHO Five Keys to Safer Food (PDF)](https://www.afro.who.int/sites/default/files/2017-06/fan_5keys_en%20%282%29.pdf)
 - [Dietary Guidelines for Indians 2024, ICMR-NIN (PDF)](https://nin.res.in/dietaryguidelines/pdfjs/locale/DGI_2024.pdf)
 - [Changes in NIN Dietary Guidelines 2011 to 2024, PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12735365/)

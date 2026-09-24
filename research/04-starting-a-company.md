@@ -34,11 +34,11 @@ Registration is the easy part. Most companies fail because nobody wants what the
 | **OPC** (One Person Company) | 1 member + 1 nominee | Limited | No outside equity | ~₹15,000 to ₹25,000/yr | Solo founder who wants limited liability. Can convert to Pvt Ltd any time |
 | **Private Limited (Pvt Ltd)** | 2 to 200 shareholders, min 2 directors | Limited | **Yes** (preferred by angels and VCs) | ~₹30,000 to ₹50,000/yr | Any startup that wants to scale or raise money |
 
-**Rule of thumb:** If you might ever raise investment, issue ESOPs, or want DPIIT startup benefits, choose a **Private Limited Company**. Solo? Start as an **OPC** and convert later, or bring in a co-founder/family member as the second director.
+**Rule of thumb:** If you might ever raise equity from angels or VCs or issue ESOPs, choose a **Private Limited Company**. (DPIIT recognition is also open to LLPs, registered partnerships and cooperatives; the startup tax holiday needs a company or LLP.) Solo? Start as an **OPC** and convert later, or bring in a co-founder/family member as the second director.
 
 **Director rules:** at least one director must be resident in India (stayed 182+ days in India during the financial year). No minimum capital is required.
 
-**"Small company" status** (lighter compliance: fewer board meetings, simpler annual return MGT-7A, no mandatory cash flow statement): from **1 December 2025**, paid-up capital up to **₹10 crore** AND turnover up to **₹100 crore** (earlier ₹4 crore / ₹40 crore). Notification G.S.R. 880(E).
+**"Small company" status** (lighter compliance: fewer board meetings, simpler annual return MGT-7A, no mandatory cash flow statement): from **1 December 2025**, paid-up capital up to **₹10 crore** AND turnover up to **₹100 crore** (earlier ₹4 crore / ₹40 crore). Notification G.S.R. 880(E). The relief doesn't apply to public companies, holding or subsidiary companies, or Section 8 companies. If you outgrow small-company status, a private company must issue shares only in demat form.
 
 ### 1.3 Step-by-step: Registering a Private Limited Company (SPICe+ on MCA V3)
 
@@ -52,12 +52,12 @@ SPICe+ is one integrated web form on the MCA portal that gives you incorporation
 6. **AGILE-PRO-S**: applies for GSTIN, EPFO, ESIC, professional tax, Shops & Establishment (some states) and opens a bank account.
 7. **INC-9**: declaration by subscribers and directors.
 8. **Professional certification** by a practising CA, CS, CMA or advocate + all DSCs.
-9. **Pay fees**: Nil MCA filing fee up to ₹15 lakh authorised capital; PAN + TAN ~₹66; **stamp duty varies by state** (₹200 to ₹12,600+ depending on state and capital).
+9. **Pay fees**: Nil MCA filing fee up to ₹15 lakh authorised capital; PAN ₹66 + TAN ₹65 (~₹131); **stamp duty varies by state** (from about ₹100 to ₹15,000+ depending on state and capital; Punjab and Kerala are among the most expensive).
 10. **Certificate of Incorporation (COI)** with CIN, PAN and TAN: usually 7 to 10 working days if documents are clean.
 
 **Documents checklist:** PAN and Aadhaar of all directors, passport-size photo, bank statement or utility bill (address proof, under 2 months old), email and mobile for each director, registered office proof + owner NOC, and for foreign nationals apostilled passport and address proof.
 
-**Realistic total cost (DIY-ish, 2 directors, ₹1 lakh capital):** about ₹6,000 to ₹15,000 in government fees + DSCs + stamp duty. Online service providers charge ₹1,000 to ₹10,000 extra.
+**Realistic total cost (DIY-ish, 2 directors, ₹1 lakh capital):** about ₹6,000 to ₹20,000 in government fees + DSCs + stamp duty (more in high-stamp-duty states). Online service providers charge ₹1,000 to ₹10,000 extra.
 
 ### 1.4 Right after incorporation (first 180 days)
 
@@ -65,9 +65,9 @@ SPICe+ is one integrated web form on the MCA portal that gives you incorporation
 |---|---|---|
 | Immediately | **Open current bank account** | Often opened through AGILE-PRO-S. Deposit the share subscription money |
 | Within 30 days | **First board meeting** | Appoint first auditor, adopt common seal (optional), authorise bank signatories |
-| Within 30 days of incorporation | **Appoint first statutory auditor** | Board appoints; file **ADT-1** within 15 days of appointment |
+| Within 30 days of incorporation | **Appoint first statutory auditor** | Board appoints. Filing **ADT-1** for the first auditor is recommended by the MCA (its July 2025 FAQ says not strictly mandatory); file it within 15 days to be safe |
 | Within 60 days | **Issue share certificates** to subscribers | Pay stamp duty on shares (state specific) |
-| Within 180 days | **INC-20A: Declaration of Commencement of Business** | Proof subscribers paid for shares. Penalty ₹50,000 on company + ₹1,000/day per director (max ₹1 lakh); risk of strike-off |
+| **As soon as share money is in the bank** (outer limit 180 days) | **INC-20A: Declaration of Commencement of Business** | Proof subscribers paid for shares. Under section 10A the company **cannot start business or borrow until this is filed**. Penalty ₹50,000 on company + ₹1,000/day per officer in default (max ₹1 lakh); risk of strike-off |
 | Within 30 days of starting | **Shops & Establishments registration** | State law; required for most offices and shops |
 | On first employee/salary (state based) | **Professional Tax** registration | Maharashtra, Karnataka, West Bengal, Tamil Nadu, Telangana, Gujarat and others |
 | When threshold crossed | **GST registration** | See 1.6 |
@@ -78,40 +78,40 @@ SPICe+ is one integrated web form on the MCA portal that gives you incorporation
 
 | When | Filing / Event | What it is |
 |---|---|---|
-| Every quarter | **Board meeting** (small companies: minimum 2 per year, gap over 90 days allowed) | Minutes must be kept |
+| Board meetings | **Other companies:** 4 per year, gap no more than 120 days. **Small companies, OPCs and startup private companies:** at least one in each half of the calendar year, at least 90 days apart | Minutes must be kept |
 | 30 June | **DPT-3** | Return of deposits / outstanding loans |
 | 30 September | **AGM** (first AGM within 9 months of first FY end) | Adopt accounts, appoint/ratify auditor |
-| 30 September | **DIR-3 KYC** | Every director, every year, or DIN gets deactivated |
+| 30 June (once every 3 financial years) | **DIR-3 KYC Web** | From 31 March 2026 (G.S.R. 943(E)) director KYC moved to a **3-year cycle**, filed by 30 June. Update any change of mobile, email or address within 30 days. Late/reactivation fee ₹5,000 |
 | 31 October | **ITR-6** (company income tax return) | If transfer pricing applies, 30 November |
 | 30 days after AGM | **AOC-4** | Financial statements |
 | 60 days after AGM | **MGT-7 / MGT-7A** | Annual return (7A for small companies and OPCs) |
 | 30 April / 31 October | **MSME-1** (half-yearly) | If you owe money to MSME suppliers for more than 45 days |
-| Monthly / quarterly | **GST returns** GSTR-1, GSTR-3B | Quarterly under QRMP scheme if turnover under ₹5 crore |
+| Monthly / quarterly | **GST returns** GSTR-1, GSTR-3B | Quarterly returns under the QRMP scheme if turnover is up to ₹5 crore (tax is still paid monthly via PMT-06 for the first two months of each quarter) |
 | 31 December | **GSTR-9** | Annual GST return (if applicable) |
 | 15 Jun, 15 Sep, 15 Dec, 15 Mar | **Advance tax** instalments | If tax liability is ₹10,000 or more |
-| 7th of every month | **TDS deposit** | Quarterly TDS returns (24Q salary, 26Q others) |
+| 7th of every month (30 April for March) | **TDS deposit** | Quarterly TDS returns: from 1 April 2026 **Form 138** (salary) and **Form 140** (others), replacing 24Q and 26Q. Due 31 Jul, 31 Oct, 31 Jan, 31 May |
 
-**Late fees:** ₹100 per day per ROC form with no upper cap. Directors of a company that does not file for 3 years get disqualified for 5 years. A company with zero revenue must still file everything.
+**Late fees:** ₹100 per day with no upper cap on annual filings (AOC-4, MGT-7/7A); event-based forms (ADT-1, INC-20A, DPT-3) carry slab-based additional fees. Directors of a company that does not file for 3 years get disqualified for 5 years. A company with zero revenue must still file everything.
 
 ### 1.6 Taxes
 
 **Income tax (company):**
 - The **Income-tax Act, 2025** replaced the 1961 Act from **1 April 2026**. Many section numbers changed but most of the substance carried over. Old references you will still see: 80-IAC, 115BAA, 56(2)(viib).
-- **Concessional regime (old section 115BAA):** 22% base + 10% surcharge + 4% cess = **25.168% effective**, no MAT, but you give up most deductions and incentives.
-- **Normal regime:** 25% for companies with turnover up to ₹400 crore (plus surcharge and cess); lets you claim the startup tax holiday.
-- **Angel tax** (old section 56(2)(viib)) was **abolished from 1 April 2025** for all investors. Issuing shares at a premium no longer triggers this tax.
+- **Concessional regime (old section 115BAA):** 22% base + 10% surcharge + 4% cess = **25.168% effective**, no MAT, but you give up most deductions and incentives. **Once chosen, the option cannot be withdrawn.**
+- **Normal regime:** 25% for companies with turnover up to ₹400 crore (plus surcharge and cess); lets you claim the startup tax holiday. But **MAT** (Minimum Alternate Tax on book profit) still applies: the Finance Act 2026 cut it to **14%** and made it a final tax from 1 April 2026. So a tax holiday does **not** mean zero tax.
+- **Angel tax** (old section 56(2)(viib)) was **abolished from assessment year 2025-26** for all investors. Issuing shares at a premium no longer triggers this tax.
 - **Tax audit** is needed above ₹1 crore turnover (₹10 crore if cash transactions are 5% or less).
 
 **GST:**
-- **Registration thresholds:** ₹40 lakh for goods, ₹20 lakh for services (₹20 lakh / ₹10 lakh in special category states). **Mandatory regardless of turnover** for interstate supply of goods, e-commerce sellers, and some other cases.
+- **Registration thresholds:** ₹40 lakh for businesses supplying **only goods**, ₹20 lakh for services. Exceptions: **Manipur, Mizoram, Nagaland and Tripura** use ₹20 lakh (goods) / ₹10 lakh (services); **Telangana, Puducherry, Arunachal Pradesh, Meghalaya, Sikkim and Uttarakhand** use ₹20 lakh for goods. **Mandatory regardless of turnover** for interstate supply of goods and some other cases. Since October 2023, small unregistered suppliers may make intra-state sales through e-commerce platforms under conditions; check the current rules for your case.
 - **Rates since 22 September 2025 ("GST 2.0"):** two main slabs, **5% (merit)** and **18% (standard)**, plus **40%** for luxury/sin goods. The old 12% and 28% slabs were mostly merged away. Some items are 0%.
-- **Composition scheme:** simpler flat-rate GST for small businesses (up to ₹1.5 crore turnover for goods, ₹50 lakh for services), but you cannot collect GST from customers or claim input credit.
+- **Composition scheme:** simpler flat-rate GST for small businesses (up to ₹1.5 crore turnover for goods, ₹75 lakh in special category states, ₹50 lakh for services), but you cannot collect GST from customers, claim input credit, make inter-state sales, or sell goods through e-commerce platforms.
 
-**TDS:** you must deduct tax at source when you pay salaries, rent, contractors, professionals above set limits, and deposit it by the 7th of the next month.
+**TDS:** you must deduct tax at source when you pay salaries, rent, contractors, professionals above set limits, and deposit it by the 7th of the next month (30 April for tax deducted in March).
 
 ### 1.7 Startup India (DPIIT recognition)
 
-**What changed in 2026:** DPIIT's **6 February 2026 notification** replaced the 2019 framework.
+**What changed in 2026:** DPIIT's **notification G.S.R. 108(E) of 4 February 2026** replaced the 2019 framework.
 
 | Criterion | Regular startup | Deep Tech startup |
 |---|---|---|
@@ -122,7 +122,7 @@ SPICe+ is one integrated web form on the MCA portal that gives you incorporation
 | Not allowed | Formed by splitting or reconstructing an existing business | Same |
 
 **Benefits:**
-- **Tax holiday (old 80-IAC, now section 140 of the Income-tax Act, 2025):** 100% deduction of profits for **any 3 consecutive years out of the first 10**. Needs a separate Inter-Ministerial Board (IMB) certificate. Available for eligible startups incorporated **before 1 April 2030**. Very few applicants get approved (around 2% historically), so do not build your business plan around it.
+- **Tax holiday (old 80-IAC, now section 140 of the Income-tax Act, 2025):** 100% deduction of profits for **any 3 consecutive years out of the first 10**. Its conditions are **stricter than DPIIT recognition**: **companies and LLPs only**, turnover up to **₹100 crore** in the year of claim, incorporated between 1 April 2016 and 31 March 2030, and a separate **Inter-Ministerial Board (IMB) certificate**. Only about **1.8% of all DPIIT startups** hold one (about half of those who apply are approved). MAT still applies (see 1.6). Don't build your business plan around it.
 - **Self-certification** under certain labour and environment laws for the early years.
 - **IP:** 80% rebate on patent filing fees (about ₹1,600 to file as a DPIIT startup), 50% lower trademark fee (₹4,500 per class instead of ₹9,000), expedited patent examination.
 - **Easier public procurement:** relaxation of prior-turnover and experience conditions in government tenders (GeM portal).
@@ -141,16 +141,16 @@ Free, online, Aadhaar-based, lifetime valid. From **1 April 2025** the limits ar
 | Small | Up to ₹25 crore | Up to ₹100 crore |
 | Medium | Up to ₹125 crore | Up to ₹500 crore |
 
-**Benefits:** collateral-free loans under CGTMSE (up to ₹10 crore), priority-sector lending, protection against late payments (buyers must pay within 45 days, and the buyer loses the tax deduction if they don't), preference in government tenders (EMD exemption on GeM), subsidies under state schemes, cheaper trademark/patent fees.
+**Benefits:** collateral-free loans under CGTMSE (up to ₹10 crore, for micro and small enterprises), priority-sector lending, protection against late payments for **micro and small** suppliers (buyers must pay within 15 days without a written agreement, or within the agreed period up to 45 days; otherwise the buyer's tax deduction is **deferred** until they pay), preference in government tenders (EMD exemption on GeM), subsidies under state schemes, cheaper trademark/patent fees.
 
 ### 1.9 Money: how to fund the company
 
 | Source | Typical amount | Notes |
 |---|---|---|
 | **Bootstrapping** (savings, revenue) | Any | You keep 100% ownership. Best if you can get paying customers early |
-| **Friends and family** | ₹1 lakh to ₹50 lakh | Put it in writing (equity or convertible note / CCD) |
+| **Friends and family** | ₹1 lakh to ₹50 lakh | Put it in writing, usually as equity. A **convertible note** avoids the deposit rules only if issued by a DPIIT-recognised startup for **₹25 lakh or more in one tranche**; smaller notes can count as illegal deposits. Share issues need private-placement paperwork and a valuation report |
 | **MUDRA loans** (via banks) | Shishu up to ₹50,000; Kishore up to ₹5 lakh; Tarun up to ₹10 lakh; **Tarun Plus up to ₹20 lakh** (for those who repaid a Tarun loan) | No collateral for micro enterprises |
-| **Startup India Seed Fund Scheme (SISFS)** | Grant **up to ₹20 lakh** (proof of concept, prototype, trials); debt/convertible **up to ₹50 lakh** (market entry, scaling) | Through selected incubators. DPIIT-recognised, incorporated within last 2 years, at least 51% Indian promoter holding |
+| **Startup India Seed Fund Scheme (SISFS)** | Was: grant up to ₹20 lakh; debt/convertible up to ₹50 lakh | **Closed to new startup applications on 31 May 2026**; no successor round notified as of September 2026. Watch seedfund.startupindia.gov.in and the Fund of Funds 2.0 announcements |
 | **Credit Guarantee Scheme for Startups (CGSS)** | Guarantee up to **₹20 crore** per borrower (raised from ₹10 crore) | 85% cover for loans up to ₹10 crore, 75% above |
 | **State startup policies** | Varies (Karnataka, Kerala, Telangana, Tamil Nadu, Gujarat, Maharashtra, UP are active) | Seed grants, rent subsidies, patent reimbursements |
 | **Incubators / accelerators** | Grants + small equity cheques + mentoring | IIT/IIM incubators, T-Hub, NASSCOM 10K, Atal Incubation Centres (AIM) |
@@ -166,8 +166,8 @@ Free, online, Aadhaar-based, lifetime valid. From **1 April 2025** the limits ar
 
 - **Founders' agreement / shareholders' agreement:** roles, equity split, **vesting** (typically 4 years with a 1-year cliff), what happens if a founder leaves, decision-making, IP ownership, non-compete, deadlock resolution.
 - **IP assignment:** everything founders, employees and freelancers create belongs to the company, in writing.
-- **ESOP pool:** usually 5 to 15% of shares, needs a scheme approved by shareholders. DPIIT startups can give ESOPs to promoters for 10 years from incorporation and can defer ESOP perquisite tax for eligible employees.
-- **Trademark** your brand name and logo early (₹4,500 per class for startups, individuals and MSMEs).
+- **ESOP pool:** usually 5 to 15% of shares, needs a scheme approved by shareholders. DPIIT startups can give ESOPs to promoters for 10 years from incorporation. The **ESOP tax deferral** for employees applies only to startups holding the **IMB tax-holiday certificate**, not to all DPIIT startups.
+- **Trademark** your brand name and logo early (₹4,500 per class for individuals, DPIIT startups and Udyam-registered MSMEs; ₹9,000 for a company without those certificates. If you file in a founder's name before the company exists, assign it to the company later).
 - **Contracts:** customer terms of service, privacy policy, NDA, vendor agreements, employment agreements, offer letters.
 - **Data protection:** the **Digital Personal Data Protection Act, 2023** and the DPDP Rules, 2025 (notified 14 November 2025) apply if you handle personal data. They are phased in: Data Protection Board from 14 Nov 2025, consent managers from 14 Nov 2026, and all remaining obligations from **14 May 2027**. Get consent, collect only what you need, keep data safe, and report breaches.
 - **Sector licences:** FSSAI (food), Drug licence (pharma), RBI (payments, lending), SEBI (investment advice), IRDAI (insurance), Import Export Code (IEC, for importing/exporting), Trade licence from the municipality, and so on.
@@ -178,12 +178,13 @@ India's 29 old central labour laws were merged into four codes: **Code on Wages 
 
 Key points for a small startup:
 - **Wage definition:** basic pay + DA + retaining allowance must be at least **50% of total pay**. This raises PF, gratuity and ESI contributions if your salaries are allowance-heavy.
-- **EPF:** mandatory at **20+ employees** (now across all industries). Employer 12% + employee 12% of wages (subject to wage ceiling).
+- **EPF:** mandatory at **20+ employees** (now across all industries). Employer 12% + employee 12% of wages, calculated on wages up to the ceiling, which rose from ₹15,000 to **₹25,000/month on 17 September 2026** (S.O. 5109(E)).
 - **ESIC:** mandatory at **10+ employees** (20 in some states), now pan-India, for employees earning up to ₹21,000/month.
 - **Gratuity:** payable after 5 years of service for regular employees (1 year for fixed-term employees under the new code).
 - **Appointment letters** are mandatory for every employee.
 - **Gig and platform workers** are covered under the social security code (aggregators contribute).
 - Contractors vs employees: classify correctly; misclassification causes back-liability.
+- **POSH Act, 2013:** at **10+ workers** (interns and contract staff count) you must set up an **Internal Committee** on sexual harassment, adopt a policy, and file annual reports. Fine up to ₹50,000 for a first offence.
 
 ### 1.12 Go-to-market (getting customers)
 
@@ -206,7 +207,7 @@ Key points for a small startup:
 
 - Building for 6 months before talking to a customer.
 - 50/50 equity split with no vesting and no agreement.
-- Missing INC-20A, ADT-1 and DIR-3 KYC deadlines (easy, expensive penalties).
+- Missing INC-20A, ADT-1 and DIR-3 KYC deadlines (easy, expensive penalties), or trading before INC-20A is filed.
 - Not registering GST when doing interstate goods sales or selling online.
 - Running out of cash because you tracked profit, not cash.
 - Choosing an LLP and later needing VC funding (conversion is painful).
@@ -226,8 +227,8 @@ About 2 to 3 hours per day. Weekends can be used to catch up.
 | 2 | Define your target customer precisely (age, city, job, income, behaviour). Make a list of 50 people who fit | Customer profile + list of 50 names |
 | 3 | Research competitors and substitutes. Read their reviews (Google, Amazon, Play Store, Reddit) and list the complaints | Competitor spreadsheet |
 | 4 | Write an interview script (past behaviour questions). Do 3 interviews | 3 interview notes |
-| 5 | Do 5 more interviews. Look for patterns | 8 interview notes |
-| 6 | Do 5 more interviews. Summarise: top 3 pains, how they solve it now, what they pay | Insight summary |
+| 5 | Do 7 more interviews. Look for patterns | 10 interview notes |
+| 6 | Do 10 more interviews (calls are fine). Summarise: top 3 pains, how they solve it now, what they pay | 20 interviews + insight summary |
 | 7 | **Review:** Is the problem real and painful? Adjust or pivot. Write your value proposition | Value proposition v1 |
 
 ### Week 2: Design the business
@@ -239,34 +240,31 @@ About 2 to 3 hours per day. Weekends can be used to catch up.
 | 10 | Set pricing (3 options: basic, standard, premium). Calculate cost per unit and margin | Pricing sheet |
 | 11 | Build a landing page (Carrd, Google Sites, Framer, Webflow, Wix) with a "Pre-order / Join waitlist / Book a call" button | Live landing page |
 | 12 | Share the page with your 50-person list + 2 online communities. Track visits and sign-ups | Traffic + sign-up numbers |
-| 13 | Make a simple 12-month financial model: revenue, costs, cash. Find the month you run out of money | Financial model + runway |
-| 14 | **Review:** sign-ups? Pre-orders? If under 5% interest, rework the offer | Go/no-go decision |
+| 13 | Make a simple 12-month financial model. **Start the legal groundwork in parallel:** choose the structure (table 1.2), brainstorm 5 names and check MCA, trademark, domain and social handles | Financial model + shortlist of 2 names |
+| 14 | **Review:** sign-ups? Pre-orders? If under 5% interest, rework the offer. If it's a go: **apply for DSCs** and gather documents | Go/no-go decision; DSCs ordered |
 
-### Week 3: Make it legal
-
-| Day | Task | Output |
-|---|---|---|
-| 15 | Choose structure (Pvt Ltd / OPC / LLP) using table 1.2. Choose a co-founder/second director if Pvt Ltd | Structure decision |
-| 16 | Brainstorm 5 names. Check MCA name availability, trademark registry, domain name, Instagram handle | 2 final names |
-| 17 | Apply for DSCs for all directors. Gather documents (PAN, Aadhaar, photos, address proofs, office proof + NOC) | DSCs + documents folder |
-| 18 | File SPICe+ Part A (name reservation, ₹1,000) | Name approved |
-| 19 | Draft founders' agreement (equity split, vesting, roles, IP). Get it reviewed by a lawyer if possible | Signed founders' agreement |
-| 20 | File SPICe+ Part B + e-MoA + e-AoA + AGILE-PRO-S + INC-9 through a CA/CS | Application submitted |
-| 21 | Buy domain, set up business email (Google Workspace / Zoho Mail). File trademark application (₹4,500 per class) | Domain, email, TM application number |
-
-### Week 4: Launch and set up operations
+### Week 3: Make it legal (incorporation takes about 1 to 3 weeks)
 
 | Day | Task | Output |
 |---|---|---|
-| 22 | Receive COI, PAN, TAN. Open current account. Deposit share capital | Bank account active |
-| 23 | Hold first board meeting. Appoint auditor (file ADT-1 within 15 days). Issue share certificates | Board minutes |
-| 24 | Register on Udyam (free). Apply for DPIIT recognition on startupindia.gov.in (free). Register for GST if needed | Udyam certificate, DPIIT application |
-| 25 | Set up bookkeeping (Zoho Books / Tally / Vyapar), invoicing template with GST, UPI payment gateway | Accounting ready |
-| 26 | Deliver MVP to your first 3 to 5 customers (manual is fine) | First paid customers |
-| 27 | Collect feedback. Fix the top 2 issues | Feedback log |
-| 28 | Start one marketing channel seriously (e.g., 1 Instagram reel/day or 20 LinkedIn messages/day) | Channel running |
-| 29 | Put all compliance dates in a calendar (INC-20A by day 180, DIR-3 KYC by 30 Sep, AGM, AOC-4, MGT-7A, GST returns, TDS) | Compliance calendar |
-| 30 | **Review month:** customers, revenue, CAC, what worked, what didn't. Set goals for next 90 days | 90-day plan |
+| 15 | File **SPICe+ Part A** (name reservation, ₹1,000). Approval takes 1 to 3 working days; the reserved name is valid for 20 days | Name application filed |
+| 16 | Draft the founders' agreement (equity split, vesting, roles, IP). Get it reviewed by a lawyer if possible | Draft agreement |
+| 17 | Name approved (or refile with a new name). Prepare registered-office documents | Name approval |
+| 18 | File **SPICe+ Part B** + e-MoA + e-AoA + AGILE-PRO-S + INC-9 through a CA/CS. Expect the COI in about 7 to 15 working days (a resubmission request is common; answer it the same day) | Application submitted |
+| 19 | Sign the founders' agreement. Buy the domain, set up business email | Signed agreement, domain, email |
+| 20 | While waiting: **pre-sell** to your first customers under a clear written pre-incorporation arrangement, or take refundable deposits/letters of intent only. Don't invoice as the company yet | Letters of intent / pre-orders |
+| 21 | Prepare the MVP delivery (manual is fine) and bookkeeping setup (Zoho Books / Tally / Vyapar) | Ready to deliver |
+
+### Week 4: Launch and set up operations (dates depend on when the COI arrives)
+
+| Day | Task | Output |
+|---|---|---|
+| 22 to 27 | **When the COI, PAN and TAN arrive:** open the current account, deposit share capital, **file INC-20A immediately** (you can't trade until it's filed), hold the first board meeting, appoint the auditor (file ADT-1), issue share certificates | Company ready to trade |
+| 22 to 27 | Then: register on **Udyam** (free) and apply for **DPIIT recognition** (free). Register for GST if needed. **File the trademark** after Udyam/DPIIT so the company pays ₹4,500 per class, not ₹9,000 | Udyam certificate, DPIIT application, TM number |
+| 22 to 27 | Meanwhile (not dependent on the COI): collect feedback from pilot users, fix the top 2 issues, start one marketing channel (e.g. 1 Instagram reel/day or 20 LinkedIn messages/day) | Feedback log, channel running |
+| 28 | Once INC-20A is filed: invoice your first 3 to 5 customers through the company, with GST if registered | First paid customers |
+| 29 | Put all compliance dates in a calendar (ADT-1, DPT-3, AGM, AOC-4, MGT-7A, DIR-3 KYC Web, GST returns, TDS, advance tax) | Compliance calendar |
+| 30 | **Review month:** customers, revenue, CAC, what worked, what didn't. Set goals for the next 90 days. If the COI is still pending, finish Week 4's company steps in Week 5 | 90-day plan |
 
 ---
 
@@ -287,7 +285,7 @@ About 2 to 3 hours per day. Weekends can be used to catch up.
 - *The Mom Test*, Rob Fitzpatrick (customer interviews)
 - *The Lean Startup*, Eric Ries
 - *Zero to One*, Peter Thiel
-- *Traction*, Gabriel Weinberg and Justin Mares (18 marketing channels)
+- *Traction*, Gabriel Weinberg and Justin Mares (19 traction channels)
 - *The Hard Thing About Hard Things*, Ben Horowitz
 - *Venture Deals*, Brad Feld and Jason Mendelson (fundraising terms)
 
@@ -326,6 +324,15 @@ About 2 to 3 hours per day. Weekends can be used to catch up.
 - [Pvt Ltd vs LLP vs OPC 2026, KDP Accountants](https://kdpaccountants.com/blogs/opc-vs-llp-vs-private-limited-india)
 - [Annual Compliance Comparison, Kanakkupillai](https://www.kanakkupillai.com/learn/annual-compliance-comparison-opc-vs-private-limited-company-vs-llp-vs-sole-proprietorship/)
 - [Udyam Registration Benefits, Tally Solutions](https://tallysolutions.com/business-guides/msme-udyam-registration-benefits-compliance/)
+- [DIR-3 KYC overhaul: 3-year cycle, TaxGuru](https://taxguru.in/company-law/dir-3-kyc-overhaul-mca-annual-filing-3-year-compliance-cycle.html)
+- [India moves to a triennial KYC regime for directors, Fox Mandal](https://foxmandal.in/News/india-moves-to-a-triennial-kyc-regime-for-directors/)
+- [Startup India Seed Fund Scheme portal](https://seedfund.startupindia.gov.in/)
+- [TDS Forms 138 and 140 replace 24Q and 26Q, TaxGuru](https://taxguru.in/income-tax/tds-forms-138-140-replace-forms-24q-26q-fy-2026-27.html)
+- [Budget 2026: MAT as a final tax, Business Standard](https://www.business-standard.com/budget/news/budget-2026-mat-final-tax-credit-setoff-new-regime-126020101235_1.html)
+- [Tax deduction for startups under section 140, TaxGuru](https://taxguru.in/income-tax/tax-deduction-startups-section-140-income-tax-act-2025.html)
+- [Labour Ministry notifies ₹25,000 wage ceiling, SCC Times (Sept 2026)](https://www.scconline.com/blog/post/2026/09/19/labour-ministry-notifies-25000-wage-ceiling-under-social-security-code/)
+- [Section 43B(h), ClearTax](https://cleartax.in/s/section-43bh-of-income-tax-act)
+- [INC-20A and section 10A, EquityList](https://www.equitylist.co/blog-post/inc-20a)
 - [DPDP Rules 2025 Phased Timeline, Shardul Amarchand Mangaldas](https://www.amsshardul.com/insight/enforcement-of-the-dpdp-act-and-notification-of-the-dpdp-rules/)
 - [Trademark Fee Concession for MSME and Startups, SetIndiaBiz](https://www.setindiabiz.com/blog/trademark-registration-fee-concession-msme-startup)
 - [IP Costs for Startups in India, Intepat](https://www.intepat.com/blog/startup-ip-costs-india)

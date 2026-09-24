@@ -16,14 +16,14 @@ Most exploration licences in India were designed for companies with money, staff
 |---|---|---|---|---|
 | **Adventure / expedition / trekking** | Yes, very feasible | ₹2 lakh to ₹15 lakh | State tourism registration, IMF peak permits, forest permits | Guided treks and expedition logistics |
 | **Drone and geospatial survey** | Yes, very feasible | ₹5 lakh to ₹30 lakh | DGCA Remote Pilot Certificate, drone UIN (Digital Sky) | Mapping for mining, construction, farms, SVAMITVA-type land surveys |
-| **Satellite data / Earth-observation analytics** | Yes, very feasible | ₹1 lakh to ₹10 lakh (laptop + cloud) | None for analysing free data. IN-SPACe only if you operate space objects | Mineral, crop, water, forest mapping from free satellite images |
-| **Mineral exploration services** | Yes, with a geology background | ₹5 lakh to ₹50 lakh | QCI-NABET accreditation + Ministry of Mines notification (to do government-funded work) | Mapping, sampling, geophysics, reports for NMEDT projects and lease holders |
+| **Satellite data / Earth-observation analytics** | Yes, very feasible | ₹1 lakh to ₹10 lakh (laptop + cloud) | None for analysing data. IN-SPACe authorisation for operating satellites or ground stations, or distributing very high-resolution imagery. Commercial use of Google Earth Engine needs a paid licence | Mineral, crop, water, forest mapping from free satellite images |
+| **Mineral exploration services** | Yes as a subcontractor, with a geology background (formal NPEA accreditation needs a staffed firm) | ₹5 lakh to ₹50 lakh | QCI-NABET accreditation + Ministry of Mines notification (to do government-funded work) | Mapping, sampling, geophysics, reports for NMEDT projects and lease holders |
 | **Minor minerals** (stone, sand, gravel) | Medium | ₹50 lakh to ₹5 crore | State quarry lease via state auction | State mining department auctions |
-| **Holding an Exploration Licence (critical minerals)** | Hard alone; do it with partners | ₹5 crore to ₹50 crore+ over 5 years (mostly drilling) | Exploration Licence won in central/state auction | Partner with a junior miner; use the 50% reimbursement scheme |
+| **Holding an Exploration Licence (critical minerals)** | Hard alone; do it with partners | ₹5 crore to ₹50 crore+ over 5 years (mostly drilling) | Exploration Licence won in central/state auction | Partner with a junior miner; use the 50% reimbursement scheme (repayable, see 1.2) |
 | **Space hardware / launches** | Hard alone | ₹1 crore to ₹50 crore+ | IN-SPACe authorisation | Components, payloads, ground stations, CubeSats with universities |
 | **Oil and gas** | Not realistic alone | ₹100 crore+ | Petroleum lease via OALP / DSF bid rounds | Geoscience consulting, seismic interpretation, services |
 | **Deep-sea minerals** | Not realistic alone | Very high | Offshore operating right (auction); international seabed only via government sponsorship | Marine survey, ROV, hydrography, environmental baseline services |
-| **Polar (Antarctica)** | Only as a tour agent or research partner | Low (agency) | Permit under the Indian Antarctic Act, 2022 | Resell cruises from IAATO-member operators; support research teams |
+| **Polar (Antarctica)** | Only as a tour agent or research partner | Low (agency) | None as a sales agent for foreign IAATO operators; an Indian Antarctic Act permit if you organise an Indian expedition | Resell cruises from IAATO-member operators; support research teams |
 | **Archaeology / heritage** | Rare for private individuals | Low to medium | ASI excavation licence | Heritage tourism, survey support for universities and ASI |
 
 *Capital ranges are rough estimates based on typical equipment and service costs, not official figures. Your costs will differ.
@@ -35,7 +35,7 @@ Most exploration licences in India were designed for companies with money, staff
 ### 1.2 Mineral exploration (onshore)
 
 #### The law
-- **Main law:** Mines and Minerals (Development and Regulation) Act, 1957 (MMDR Act), amended in 2015, 2021, 2023, 2025 and 2026.
+- **Main law:** Mines and Minerals (Development and Regulation) Act, 1957 (MMDR Act), amended many times, most importantly in 2015, 2016, 2020, 2021, 2023, 2025 and 2026.
 - **Who can hold a mineral concession:** an Indian national or a company registered in India (MMDR Act, section 5).
 - **Major minerals** (iron, copper, gold, lithium, etc.) follow central rules, and state governments run most auctions. **Minor minerals** (building stone, sand, gravel, ordinary clay) are fully controlled by **state governments** under their own Minor Mineral Concession Rules.
 
@@ -54,19 +54,19 @@ Most exploration licences in India were designed for companies with money, staff
 |---|---|---|---|
 | **G4** | Reconnaissance survey | Very low | Reconnaissance mineral resource |
 | **G3** | Preliminary exploration | Low | Inferred resource |
-| **G2** | General exploration | Moderate | Indicated resource (enough to auction a composite licence or, in many cases, a mining lease) |
+| **G2** | General exploration | Moderate | Indicated resource (the usual minimum to auction a mining lease; composite licences can be auctioned from G4 since the 2021 rule changes) |
 | **G1** | Detailed exploration | High | Measured resource |
 
 International reporting codes you should know: JORC (Australia), NI 43-101 (Canada), SAMREC, and the umbrella **CRIRSCO** template. India also has the **Minerals (Evidence of Mineral Contents) Rules, 2015**.
 
 #### Money and incentives
-- **Partial reimbursement of exploration expenses (June 2024):** EL holders exploring critical minerals get **50% of exploration expenses reimbursed, up to ₹20 crore**, rising to **₹24 crore** if they hand over a G2-stage block for mining-lease auction within 3 years and it is successfully auctioned.
+- **Partial reimbursement of exploration expenses (June 2024):** EL holders exploring critical minerals get **50% of exploration expenses reimbursed, up to ₹20 crore**, rising to **₹24 crore** if they hand over a G2-stage block for mining-lease auction within 3 years and it is successfully auctioned. **It is not a grant:** the money comes from NMEDT and must be **repaid within 10 years in equal yearly instalments** once mineral production and auction-premium payments start (or within one month if taken as a lump sum). Claims must be filed within 6 months of getting the EL.
 - **National Mineral Exploration and Development Trust (NMEDT)**, renamed from NMET in 2025: funds exploration projects. The levy that feeds it rose from 2% to 3% of royalty. It now can also fund exploration offshore and outside India.
-- **National Critical Mineral Mission (NCMM)**, January 2025: total outlay of **₹34,300 crore** over seven years to 2030-31, with a target of **1,200 exploration projects** and **100+ critical mineral block auctions**.
-- **MMDR Amendment Act, 2026** (assented 17 August 2026): new **section 9D** stops states from imposing their own taxes, cesses or levies on mineral rights and mineral-bearing land except as the Centre allows. This gives more cost predictability.
+- **National Critical Mineral Mission (NCMM)**, January 2025: total outlay of **₹34,300 crore** over seven years to 2030-31 (₹16,300 crore government spending + ₹18,000 crore expected from PSUs), with a target of **1,200 exploration projects** (carried out by GSI) and **100+ critical mineral block auctions**.
+- **MMDR Amendment Act, 2026** (assented 17 August 2026): new **section 9D** stops states from imposing their own taxes, cesses or levies on mineral rights and mineral-bearing land except as the Centre allows. It came into force on 22 August 2026. It should give more cost predictability, though a constitutional challenge by states is expected.
 
 #### How a solo founder gets paid work
-1. **Become an accredited and notified private exploration agency (NPEA).** Get accredited under the **QCI-NABET Accreditation of Exploration Agencies (AEA)** scheme (it checks your qualified staff, equipment, infrastructure and quality systems), then get notified by the Ministry of Mines under the proviso to section 4(1) of the MMDR Act. NPEAs can carry out **NMEDT-funded** projects.
+1. **Become an accredited and notified private exploration agency (NPEA).** Get accredited under the **QCI-NABET Accreditation of Exploration Agencies (AEA)** scheme (it checks your qualified staff, equipment, infrastructure and quality systems), then get notified by the Ministry of Mines under the proviso to section 4(1) of the MMDR Act. NPEAs can carry out **NMEDT-funded** projects. Accreditation assesses a firm's team, so a solo founder usually starts with route 2 below.
 2. **Subcontract** to existing NPEAs, PSUs (MECL, NMDC, Coal India, Hindustan Copper), and private lease holders: geological mapping, sampling, geophysics, core logging, GIS and reporting.
 3. **Partner on an EL bid** with a company that has money; you bring the technical skill.
 4. **Sell data products:** prospectivity maps made from free government data plus satellite images.
@@ -74,11 +74,11 @@ International reporting codes you should know: JORC (Australia), NI 43-101 (Cana
 #### Free data you can use today
 - **National Geoscience Data Repository (NGDR)**, geodataindia.gov.in: geological, geochemical, geophysical and exploration data from GSI and others. The older **Bhukosh** portal has moved here. NGDR 2.0 adds better visualisation.
 - **Bhuvan** (ISRO) and **Copernicus Sentinel-2 / USGS Landsat** satellite images for spectral mapping (iron oxides, clays).
-- **Auction documents** on the Ministry of Mines and MSTC websites: every block's geological report is published.
+- **Auction documents** on the Ministry of Mines and MSTC websites: summary geological information for each auctioned block is published, and detailed geological reports usually come with the tender document.
 
 #### Skills and qualifications
 - **BSc/MSc Geology or Applied Geology**, M.Tech/M.Sc Applied Geophysics, or mining engineering. Top schools: IIT (ISM) Dhanbad, IIT Kharagpur, IIT Bombay, IIT Roorkee, Presidency University, Delhi University, and many state universities.
-- **Software:** QGIS (free), ArcGIS, Google Earth Engine (free for research), Leapfrog Geo, Micromine, Datamine, Surpac, Oasis montaj (geophysics).
+- **Software:** QGIS (free), ArcGIS, Google Earth Engine (free for non-commercial/research use; commercial work needs a paid licence), Leapfrog Geo, Micromine, Datamine, Surpac, Oasis montaj (geophysics).
 - **Field skills:** geological mapping, structural measurement, rock and soil sampling, core logging, QA/QC (blanks, duplicates, standards), safe drilling supervision.
 
 #### Equipment (buy or rent)
@@ -87,7 +87,7 @@ International reporting codes you should know: JORC (Australia), NI 43-101 (Cana
 |---|---|---|
 | GPS handheld, Brunton/Silva compass, hammer, hand lens, sample bags | ₹30,000 to ₹80,000 | Buy |
 | Rugged laptop + QGIS | ₹60,000 to ₹1.5 lakh | Buy |
-| Handheld XRF analyser | ₹15 lakh to ₹35 lakh | Rent at first |
+| Handheld XRF analyser | ₹15 lakh to ₹35 lakh | Rent at first (X-ray devices may need AERB registration; check before buying or importing) |
 | Magnetometer, resistivity/IP, GPR | ₹5 lakh to ₹50 lakh each | Rent / subcontract |
 | Survey drone + RTK GPS | ₹3 lakh to ₹20 lakh | Buy (overlaps with drone track) |
 | Core drilling rig | ₹1 crore+ | Hire a drilling contractor |
@@ -104,16 +104,16 @@ International reporting codes you should know: JORC (Australia), NI 43-101 (Cana
 
 ### 1.3 Offshore and deep-sea exploration
 
-#### Inside India's waters (up to the EEZ, 200 nautical miles)
+#### Inside India's waters (territorial waters, continental shelf, EEZ and other maritime zones)
 - **Law:** Offshore Areas Mineral (Development and Regulation) Act, 2002, **amended in 2023** to allocate rights only by **auction**.
 - **Rights available:** **production lease** and **composite licence** (exploration followed by production).
-- **First tranche:** launched **28 November 2024** with **13 offshore blocks**: 3 construction sand blocks off Kollam (Kerala), 3 lime mud blocks off Porbandar (Gujarat), and 7 polymetallic nodule and crust blocks near Great Nicobar. It met local resistance and delays, and results have been slow.
-- **Maritime Zones of India Act, 1976:** foreign entities need permission for marine scientific research in Indian waters.
+- **First tranche:** launched **28 November 2024** with **13 offshore blocks**: 3 construction sand blocks off Kollam (Kerala), 3 lime mud blocks off Porbandar (Gujarat), and 7 polymetallic nodule and crust blocks near Great Nicobar. After several extensions, the government **annulled it for lack of bidders** (reported December 2025), and in **April 2026** said it had **no near-term plan to revive** offshore mineral auctions.
+- **Maritime Zones of India Act, 1976:** **any person** (Indian or foreign, except Indian citizens fishing) needs a licence or letter of authority from the Central Government to explore or carry out research in the continental shelf or EEZ. This includes Indian survey firms.
 
 #### International waters (the deep seabed)
 - Controlled by the **International Seabed Authority (ISA)** under UNCLOS. Only a state or an entity **sponsored by a state** can get an exploration contract. India's contracts are held by the **Ministry of Earth Sciences**.
 - India holds **three ISA contracts** covering about **95,000 sq km**: polymetallic nodules in the Central Indian Ocean Basin (India was the first "Pioneer Investor"), and polymetallic sulphides in the Central Indian Ridge and, since 2025, a **10,000 sq km block in the Carlsberg Ridge** (15-year contract). India is the first country to hold two ISA sulphide contracts.
-- **Deep Ocean Mission** (Samudrayaan): building the **MATSYA 6000** crewed submersible, deep-sea mining tech and underwater robotics.
+- **Deep Ocean Mission**, whose crewed-submersible component is **Samudrayaan**: building the **MATSYA 6000** crewed submersible (wet tests in 2025; a 6,000 m dive is targeted for around the end of 2027), deep-sea mining tech and underwater robotics.
 - The ISA's commercial mining rules are still not finished, so commercial deep-sea mining is not yet possible.
 
 #### Solo founder opportunities
@@ -127,7 +127,7 @@ Hydrographic and bathymetric survey, ROV/AUV operations, marine environmental ba
 - **Regulator:** Directorate General of Hydrocarbons (**DGH**), under the Ministry of Petroleum and Natural Gas.
 - **Policy:** HELP (Hydrocarbon Exploration and Licensing Policy) with a single licence for all hydrocarbons, revenue sharing, and freedom to market and price.
 - **Bid rounds:**
-  - **OALP (Open Acreage Licensing Programme):** Round X offered **25 blocks** across 13 basins (about 1.82 lakh sq km, mostly offshore). The bid deadline was extended to **29 May 2026**. Round XI offered **21 blocks** (announced March 2026).
+  - **OALP (Open Acreage Licensing Programme):** Round X offered **25 blocks** across 13 basins (about 1.82 lakh sq km, mostly offshore). Round XI offered **21 blocks** (announced March 2026). The deadlines have been extended about six times; the latest extension moved **deepwater and ultra-deepwater bids for both rounds to 15 November 2026**. A new "Samudra Manthan" scheme has the government share up to 50% of deep-well drilling costs.
   - **DSF (Discovered Small Fields) rounds:** already-discovered small fields with lower risk. This is the most realistic entry for small companies, usually with partners.
 - **Data:** the **National Data Repository (NDR)**, run by DGH, holds seismic, well and log data. Access is licensed and paid, not free.
 - **Solo reality:** investment runs into hundreds of crores. Start with **services**: seismic interpretation, petrophysics, reservoir modelling, well-site geology, HSE consulting, environmental monitoring, or data digitisation.
@@ -141,7 +141,7 @@ Hydrographic and bathymetric survey, ROV/AUV operations, marine environmental ba
 - **FDI limits (2024 liberalisation):**
   - Up to **100% automatic route:** satellite components and systems, ground and user segment manufacturing
   - Up to **74% automatic route:** satellite manufacturing and operation, satellite data products
-  - Up to **49% automatic route:** launch vehicles, spaceports
+  - Up to **49% automatic route:** launch vehicles, spaceports (beyond each automatic limit, up to 100% is possible with government approval)
 - **Funding for space startups:**
   - **IN-SPACe Seed Fund:** grants up to about **₹1 crore**
   - **Technology Adoption Fund (Feb 2025), ₹500 crore:** covers up to **60% of project cost for startups/MSMEs** (40% for large firms), max **₹25 crore** per project
@@ -150,11 +150,11 @@ Hydrographic and bathymetric survey, ROV/AUV operations, marine environmental ba
 - **The ecosystem:** 400+ space startups in India by 2026 (Skyroot, Agnikul, Pixxel, Dhruva Space, Digantara, and many more).
 
 **Solo founder entry points (cheapest first):**
-1. **Earth-observation analytics:** use free Sentinel, Landsat and Bhuvan data plus Google Earth Engine to sell mineral, crop, water or forest insights. No IN-SPACe licence needed to analyse and sell insights from free data.
+1. **Earth-observation analytics:** use free Sentinel, Landsat and Bhuvan data to sell mineral, crop, water or forest insights. No IN-SPACe licence is needed to analyse data and sell insights. **Google Earth Engine is free only for non-commercial use**; for paid work, get its commercial licence or use open platforms (QGIS, Copernicus Data Space, openEO).
 2. **Ground station services / software:** tracking, telemetry and command software.
 3. **Components and subsystems:** sensors, antennas, power boards, testing services.
 4. **CubeSat projects** with universities (student satellite programmes).
-5. **Amateur radio satellite communication:** get a licence from the **WPC Wing, Ministry of Communications** (ASOC exam) to legally talk to amateur satellites. This links to the binary communication guide.
+5. **Amateur radio satellite communication:** get a licence from the **WPC Wing, Ministry of Communications** (ASOC exam) to legally talk to amateur satellites. **Amateur licences are strictly non-commercial**, so this is a skill-builder, not a business line. It links to the binary communication guide.
 
 ---
 
@@ -171,26 +171,26 @@ Trekking, mountaineering expeditions, rock and ice climbing, river rafting and k
 |---|---|---|
 | **Company / OPC / proprietorship + GST** | MCA / GST | Tour operator services attract GST. Check the current rate for your service |
 | **State adventure tourism registration** | State tourism department | Mandatory in several states (Uttarakhand, Himachal Pradesh, Kerala, Sikkim, Goa for water sports, and others). Specific activities like rafting need separate licences |
-| **Ministry of Tourism: Approved Adventure Tour Operator** (voluntary) | Ministry of Tourism | Criteria include minimum paid-up capital of about **₹3 lakh** and **at least 4 qualified staff**. Field staff must be qualified or have 5+ years of experience, with certificates from bodies such as IMF (mountaineering/trekking) or NIWS Goa (water sports) |
+| **Ministry of Tourism: Approved Adventure Tour Operator** (voluntary) | Ministry of Tourism | Criteria (2020 guidelines) include paid-up capital of about **₹3 lakh**, **at least 4 qualified staff**, office space, and **turnover of at least ₹10 lakh from adventure activities in the previous year**, so it's for year 2 onwards, not a brand-new solo operator. Recognition now runs under the Revised Guidelines for Tourism Service Providers on the **NIDHI+ portal**. Field staff must be qualified or have 5+ years of experience, with certificates from bodies such as IMF (mountaineering/trekking) or NIWS Goa (water sports) |
 | **Peak permits** | **Indian Mountaineering Foundation (IMF)** | Needed for mountaineering peaks. Foreign teams get an IMF-appointed **liaison officer** (you pay for their equipment, about US$500 fixed) and must submit an expedition report within **2 months** |
 | **Inner Line Permit (Indians)** | State government | Arunachal Pradesh, Mizoram, Nagaland, Manipur |
 | **Protected / Restricted Area Permit (foreigners)** | MHA / state | PAP for Arunachal, Nagaland, Manipur, Mizoram; RAP for Sikkim. Parts of Ladakh and other border areas also need permits |
-| **Ladakh** | LAHDC Leh | Indians pay an online environment fee; certain areas need protected-area permits |
+| **Ladakh** | LAHDC Leh | Indians no longer need an Inner Line Permit (abolished 2021) but pay an online environment/wildlife fee; foreigners need Protected Area Permits for many areas |
 | **National parks / sanctuaries** | Chief Wildlife Warden (state) | Permit under **section 28, Wild Life (Protection) Act, 1972**, for entry, research, photography and filming |
 | **Forest trekking routes** | State forest department | Many routes need forest department permits and fees |
 | **Drone filming** | DGCA Digital Sky | See 1.9 |
 
-**Satellite phones:** privately owning or using Iridium/Thuraya phones or satellite messengers (such as Garmin inReach) is **illegal in India without Department of Telecommunications permission** (Indian Wireless Telegraphy Act, 1933; up to 3 years' imprisonment and/or fines). Several trekkers and tourists were arrested at Indian airports in 2024 and 2025 for carrying an inReach. Use **BSNL's authorised satellite phone service** or other legally permitted options, and plan radio (VHF with a licence) and local rescue contacts.
+**Satellite phones:** privately owning or using Iridium/Thuraya phones or satellite messengers (such as Garmin inReach) is **illegal in India without Department of Telecommunications permission** (now under the **Telecommunications Act, 2023**, in force from 26 June 2024, which replaced the Indian Wireless Telegraphy Act, 1933; up to 3 years' imprisonment and/or a fine up to ₹50 lakh). Several trekkers and tourists were arrested at Indian airports in 2024 and 2025 for carrying an inReach. Use **BSNL's authorised satellite phone service** or other legally permitted options, and plan radio (VHF with a licence) and local rescue contacts.
 
 #### Safety standards and training
-- **Guidelines:** Ministry of Tourism **Indian Adventure Tourism Guidelines**, and the **National Strategy for Adventure Tourism (2022)**. **ATOAI** (Adventure Tour Operators Association of India) publishes safety and quality guidelines.
+- **Guidelines:** the **Indian Adventure Tourism Guidelines** (2018, written by ATOAI with the Ministry of Tourism), the newer **Model Adventure Safety Guidelines** circulated to states in 2025, and the **National Strategy for Adventure Tourism (2022)**. **ATOAI** (Adventure Tour Operators Association of India) publishes safety and quality guidelines.
 - **Mountaineering institutes** (government, affordable):
   - **NIM** Uttarkashi
   - **HMI** Darjeeling
   - **ABVIMAS** Manali
   - **JIM&WS** Pahalgam
   - **NIMAS** Dirang (Arunachal)
-- **Course ladder:** Basic Mountaineering Course (BMC) → Advanced (AMC) → Method of Instruction (MOI) → Search and Rescue.
+- **Course ladder:** Basic Mountaineering Course (BMC) → Advanced (AMC) → then either Method of Instruction (MOI) or Search and Rescue (each needs an "A" grade in AMC).
 - **Water sports:** **NIWS Goa** (National Institute of Water Sports).
 - **Diving:** PADI or SSI certifications (Open Water → Advanced → Rescue → Divemaster → Instructor). Popular sites: Andaman (Havelock/Swaraj Dweep, Neil/Shaheed Dweep), Netrani (Karnataka), Goa, Lakshadweep.
 - **First aid:** Wilderness First Aid (WFA) or better, **Wilderness First Responder (WFR)**. Also CPR/AED.
@@ -233,12 +233,12 @@ Participant accident insurance, **helicopter rescue and evacuation cover**, publ
 - **Remote Pilot Certificate (RPC):** from a DGCA-authorised Remote Pilot Training Organisation (RPTO), issued digitally, **valid 10 years**. Not needed for nano drones or for micro drones used non-commercially.
 - **Type Certificate:** manufacturers need one. Buy drones that already have it.
 - **Airspace zones** (check the Digital Sky map before every flight):
-  - **Green:** up to 400 ft (120 m), no permission needed
+  - **Green:** up to 400 ft (120 m), no permission needed (only 200 ft / 60 m in the 8 to 12 km band around airports)
   - **Yellow:** air traffic control permission needed
   - **Red:** Central Government permission only
-- **Import:** fully built foreign drones are banned from import (since 2022), except for R&D, defence and security. Buy Indian-made or drones assembled in India.
-- **Insurance:** third-party insurance is expected under the rules. Get it.
-- 2026 updates add frameworks for FPV, BVLOS (beyond visual line of sight) and UTM (drone traffic management).
+- **Import:** foreign drones in fully built, semi-knocked-down or completely-knocked-down form are banned from import (since February 2022; components are allowed), except for R&D, defence and security. Buy Indian-made or drones assembled in India.
+- **Insurance:** third-party insurance is **mandatory** under Rule 44 (Motor Vehicles Act provisions apply).
+- **Coming changes:** a draft **Civil Drone (Promotion and Regulation) Bill, 2025** would replace the Drone Rules (not yet law), and a BVLOS (beyond visual line of sight) certification framework is planned for late 2026. Until then BVLOS flights need special approval.
 
 #### Geospatial data rules
 - The **Guidelines for Acquiring and Producing Geospatial Data (February 2021)** and the **National Geospatial Policy, 2022** let Indian entities collect and publish maps and geospatial data **without prior approval**, except for sensitive and defence areas. Foreign entities face limits on high-accuracy data.
@@ -249,7 +249,7 @@ Participant accident insurance, **helicopter rescue and evacuation cover**, publ
 ### 1.10 Archaeological, heritage and treasure exploration
 
 - **AMASR Act, 1958 and Rules, 1959:** excavation needs a **licence from the Director General, Archaeological Survey of India (ASI)**. The licence is not transferable. The named director must be present for at least **three-quarters** of the excavation period, and at least **15 days' written notice** must be given to the DG, the Collector and the landowner.
-- **Protected monuments:** the **100 m** around them is a prohibited area and the next **200 m** is a regulated area. Construction there needs **National Monuments Authority** permission.
+- **Protected monuments:** the **100 m** around them is a prohibited area and the next **200 m** is a regulated area. **New construction in the prohibited 100 m is barred** (only repairs and certain public works can be permitted); building in the regulated area needs permission on the **National Monuments Authority**'s advice.
 - **Antiquities and Art Treasures Act, 1972:** antiquities (generally objects 100+ years old) must be registered, and **only the government can export them**.
 - **Indian Treasure Trove Act, 1878:** anyone who finds treasure worth **more than ₹10** must report it to the District Collector. The government can acquire it. **Treasure hunting and metal detecting on protected sites is illegal.**
 - **Underwater archaeology:** ASI's Underwater Archaeology Wing handles this. Wrecks fall under merchant shipping law (the Receiver of Wreck).
@@ -271,13 +271,13 @@ Participant accident insurance, **helicopter rescue and evacuation cover**, publ
 - **Physical:** altitude sickness, avalanches, floods, heat, snakebites, wildlife, road accidents, drowning, falling rock.
 - **Legal:** operating without permits, entering restricted areas, satellite phones, drone violations, touching antiquities.
 - **Financial:** exploration can find nothing. Drilling budgets overrun. Clients pay late (use MSME delayed-payment protections).
-- **Community:** always get local consent and hire locally. Respect tribal and community land rights (Fifth and Sixth Schedule areas, Forest Rights Act, 2006).
+- **Community:** always get local consent and hire locally. Respect tribal and community land rights (Fifth and Sixth Schedule areas, Forest Rights Act, 2006). In Scheduled Areas, the **PESA Act, 1996** gives Gram Sabhas a say over mineral concessions.
 
 ---
 
 ## Part 2: 30-Day Plan
 
-About 3 hours per day. The first two weeks are the same for everyone. From week 3 you follow **your chosen track**.
+About 3 hours per day, plus some full days for training courses (drone RPC, first aid) and field days. The first two weeks are the same for everyone. From week 3 you follow **your chosen track**.
 
 ### Week 1: Understand and choose
 
@@ -295,7 +295,7 @@ About 3 hours per day. The first two weeks are the same for everyone. From week 
 
 | Day | Task | Output |
 |---|---|---|
-| 8 | Install QGIS and Google Earth Engine (free). Do a basic tutorial | Tools ready |
+| 8 | Install QGIS (free) and sign up for Google Earth Engine (free for non-commercial learning). Do a basic tutorial | Tools ready |
 | 9 | Download data for a target area: NGDR geology maps / trek route data / satellite images | First dataset |
 | 10 | Make your first map product (geology + satellite overlay, route map, or drone flight plan) | Sample map |
 | 11 | Budget your starting equipment list (section 1.2 / 1.6 / 1.9). Mark rent vs buy | Equipment budget |
@@ -307,11 +307,11 @@ About 3 hours per day. The first two weeks are the same for everyone. From week 
 
 | Day | Mineral / geoscience track | Adventure / expedition track | Drone / geospatial track | Space / satellite data track |
 |---|---|---|---|---|
-| 15 | Start OPC/Pvt Ltd registration (SPICe+) | Start OPC/Pvt Ltd or proprietorship | Start OPC/Pvt Ltd | Start Pvt Ltd (DPIIT-friendly) |
+| 15 | Start OPC/Pvt Ltd registration (SPICe+) | Start OPC/Pvt Ltd or proprietorship | Start OPC/Pvt Ltd | Start Pvt Ltd (easier for investors) |
 | 16 | Read the QCI-NABET AEA scheme and list the missing requirements | Check your state's adventure tourism registration rules | Enrol at a DGCA-authorised RPTO | Read the IN-SPACe authorisation categories |
 | 17 | Study 2 published EL/composite block reports on the Ministry of Mines/MSTC site | Plan 2 sample treks: route, permits (forest, ILP), costs | Pick a drone with a Type Certificate. Plan UIN registration | Build a demo: a mineral or crop map from Sentinel-2 |
 | 18 | Contact 3 NPEAs / PSUs about subcontract work | Contact the IMF about permits; plan your BMC / WFR | Check the Digital Sky airspace map for target sites | Contact IN-SPACe incubation / the Technology Adoption Fund cell |
-| 19 | Register on GeM + Udyam | Register on GeM + Udyam; apply for state registration | Register on GeM + Udyam | Register on GeM + Udyam; apply for DPIIT |
+| 19 | List all post-incorporation registrations (GST, Udyam, GeM) to file once the COI and PAN arrive (usually 1 to 3 weeks) | Prepare the state adventure registration documents; book BMC/WFR | Book the RPTO course (several full days) | Prepare the DPIIT application |
 | 20 | Make a capability statement (2 pages) | Make trip brochures + a pricing sheet | Make a service sheet (per-hectare / per-km pricing) | Make a demo deck + sample report |
 | 21 | **Review progress** | **Review progress** | **Review progress** | **Review progress** |
 
@@ -322,10 +322,10 @@ About 3 hours per day. The first two weeks are the same for everyone. From week 
 | 22 | Open a bank account, set up invoicing and bookkeeping | Finance ready |
 | 23 | Launch a simple website + Google Business Profile + LinkedIn page | Online presence |
 | 24 | Send 20 personalised pitches to target clients | 20 pitches sent |
-| 25 | Offer a low-cost pilot project to 2 clients (small survey, one trek, one map) | Pilot proposals |
-| 26 | Do a practice field day (mapping walk, local trek, test flight in a green zone, data run) | Field report |
+| 25 | Propose a pilot project to 2 clients, **to start only after registration, insurance and certifications are in place** (small survey, one trek, one map) | Pilot proposals |
+| 26 | Do an unpaid practice field day (mapping walk, local trek, a nano-drone flight or a flight only after RPC + UIN + insurance, data run) | Field report |
 | 27 | Follow up on pitches. Book meetings | Meetings booked |
-| 28 | Apply for relevant funding (state startup grant, SISFS through an incubator, IN-SPACe schemes, MUDRA) | Applications submitted |
+| 28 | Apply for relevant funding (state startup grants, incubator programmes, IN-SPACe schemes, MUDRA, CGSS; note the Startup India Seed Fund Scheme closed to new applications on 31 May 2026) | Applications submitted |
 | 29 | Build a compliance and permit calendar (licence renewals, KYC, returns, insurance) | Calendar |
 | 30 | **Month review:** leads, pilots, costs, skills gained. Set a 90-day plan with a first revenue goal | 90-day plan |
 
@@ -349,7 +349,7 @@ About 3 hours per day. The first two weeks are the same for everyone. From week 
 
 **Books and training**
 - *Introduction to Mineral Exploration*, Moon, Whateley and Evans
-- *Field Geology Illustrated*, Terry Swanson
+- *Field Geology Illustrated*, Terry S. Maley
 - *Mountaineering: The Freedom of the Hills*, The Mountaineers
 - *Wilderness Medicine*, Paul Auerbach
 - Google Earth Engine tutorials (developers.google.com/earth-engine)
@@ -404,5 +404,12 @@ About 3 hours per day. The first two weeks are the same for everyone. From week 
 - [AMASR Rules 1959, Indian Kanoon](https://indiankanoon.org/doc/143946348/)
 - [AMASR Act, Wikipedia](https://en.wikipedia.org/wiki/Ancient_Monuments_and_Archaeological_Sites_and_Remains_Act,_1958)
 - [Drone Registration in India, Patras Law Chambers](https://patraslawchambers.com/all-the-laws-regarding-drones-registration-in-india/)
-- [India DGCA Drone Rules 2026, UAVMODEL](https://blog.uavmodel.com/india-dgca-drone-rules-2026-remote-pilot-certificate-digital-sky-and-fpv-operations/)
 - [Forest Clearance Acts and Guidelines, PARIVESH](https://cpc.parivesh.nic.in/acts.aspx?id=FC)
+- [Scheme for partial reimbursement of exploration expenses, NMET (PDF)](https://nmet.gov.in/upload/uploadfiles/files/Scheme_for_partial_reimbursement_of_exploration.pdf)
+- [Govt does not plan to revive offshore mining auction, Business Standard (April 2026)](https://www.business-standard.com/industry/news/govt-does-not-plan-to-revive-offshore-mining-auction-in-near-term-126040100564_1.html)
+- [OALP-X and XI bid deadline extended to 15 November, ETV Bharat (Sept 2026)](https://www.etvbharat.com/en/business/govt-extends-oalp-x-and-xi-bid-deadline-again-to-november-15-enn26091004628)
+- [Territorial Waters, Continental Shelf, EEZ and Other Maritime Zones Act, 1976 (PDF)](https://www.indiacode.nic.in/bitstream/123456789/1484/2/A1976-80.pdf)
+- [Telecommunications Act 2023 partial notification, JSA](https://www.jsalaw.com/newsletters-and-updates/partial-notification-of-the-telecommunications-act-2023/)
+- [Earth Engine noncommercial vs commercial use, Google](https://earthengine.google.com/noncommercial/)
+- [Revised guidelines for recognition of tourism service providers, Ministry of Tourism](https://tourism.gov.in/index.php/schemes-and-guidelines/guidelines/revised-guidelines-recognition-tourism-service-providers-ministry)
+- [Draft Civil Drone (Promotion and Regulation) Bill 2025, MoCA (PDF)](https://www.civilaviation.gov.in/sites/default/files/2025-09/Draft%20Civil%20Drone%20(Promotion%20and%20Regulation)%20Bill%202025.pdf)

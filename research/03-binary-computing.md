@@ -1,6 +1,6 @@
 # Talking to Computers in Binary: Deep Research + 30-Day Plan
 
-> From "what is a bit" to writing machine code, building logic circuits and sending your own binary messages between devices. Every code example here was run and its output checked.
+> From "what is a bit" to writing machine code, building logic circuits and sending your own binary messages between devices. The Python, x86 and RISC-V examples were run and their outputs checked; an independent review also compiled the Arduino sketch and ran the RISC-V program in RARS.
 >
 > **Tools you need:** a computer with **Python 3** (free). Everything else is free and runs in the browser: CircuitVerse, Wokwi, Compiler Explorer. An Arduino board (about ₹500 to ₹1,500) is optional.
 
@@ -99,7 +99,7 @@ print(format(65, '08b'))
 flip → 11111010
  +1  → 11111011 = -5 (in 8 bits)
 ```
-The top bit is the sign (1 = negative). An 8-bit signed number ranges from -128 to 127. Going past the top wraps around: this is **overflow** (127 + 1 = -128 in 8 bits), a classic source of bugs.
+The top bit is the sign (1 = negative). An 8-bit signed number ranges from -128 to 127. Going past the top wraps around: this is **overflow** (127 + 1 = -128 in an 8-bit register), a classic source of bugs. (In C, signed overflow is undefined behaviour; Python integers never overflow.)
 
 **Floating point (IEEE 754):** stores fractions as **sign + exponent + mantissa** (scientific notation in binary). 32-bit "float" has 1 sign bit, 8 exponent bits, 23 mantissa bits. Many decimals can't be stored exactly in binary, which is why:
 ```python
@@ -133,7 +133,7 @@ print(struct.pack('<I', 1).hex())  # 01000000  (little-endian)
 | AND | `&` | 1 only if both are 1 | `1000` |
 | OR | `\|` | 1 if either is 1 | `1110` |
 | XOR | `^` | 1 if they differ | `0110` |
-| NOT | `~` | Flip every bit | |
+| NOT | `~` | Flip every bit (in Python, use `~x & 0xFF` for a byte; plain `~1` gives `-2`) | |
 | Left shift | `<<` | Move bits left (×2 each) | `5 << 1` = 10 |
 | Right shift | `>>` | Move bits right (÷2 each) | `20 >> 2` = 5 |
 
@@ -153,7 +153,7 @@ print(struct.pack('<I', 1).hex())  # 01000000  (little-endian)
 
 Tricks: uppercase and lowercase differ by one bit (32, bit 5). Digit `'7'` is 48 + 7.
 
-**Unicode** gives every character in every language a number (a **code point**), written U+XXXX: `A` = U+0041, `₹` = U+20B9, Devanagari `न` = U+0928, 😀 = U+1F600. It covers over 150,000 characters, including every Indian script.
+**Unicode** gives every character in every language a number (a **code point**), written U+XXXX: `A` = U+0041, `₹` = U+20B9, Devanagari `न` = U+0928, 😀 = U+1F600. Unicode 17.0 (2025) covers about 160,000 characters, including every Indian script.
 
 **UTF-8** (the encoding used by about 98% of websites) stores code points in **1 to 4 bytes**:
 
@@ -195,7 +195,7 @@ print(bytes(int(x, 2) for x in bits.split()).decode('utf-8'))   # Hi
 printf 'Hi\n' | od -A x -t x1z
 # 000000 48 69 0a     >Hi.<
 ```
-(On Mac/Linux you can also use `xxd` or `hexdump -C`. On Windows, use PowerShell's `Format-Hex`.)
+(`od -t x1z` works on Linux. On a Mac use `xxd file` or `hexdump -C file`. On Windows, use PowerShell's `Format-Hex`.)
 
 ### 1.8 Logic gates: how hardware "thinks"
 
@@ -271,10 +271,10 @@ A C function compiled to x86-64 (`gcc -O2`):
 int add(int a, int b) { return a + b; }
 ```
 ```
-8d 04 37     lea (%rdi,%rsi,1),%eax    ; eax = rdi + rsi
+8d 04 37     lea (%rdi,%rsi,1),%eax    ; eax = edi + esi (the low 32 bits)
 c3           ret
 ```
-Four bytes of binary. That's the whole function.
+Four bytes of binary. That's the whole function. (Many Linux distributions add a 4-byte `endbr64` security instruction at the start by default; compile with `-fcf-protection=none` to see just these 4 bytes.)
 
 ### 1.10 Assembly language
 
@@ -300,7 +300,8 @@ loop:   add  t0, t0, t1     # sum = sum + i
 C / C++ / Rust source  →  compiler  →  assembly  →  assembler  →  object file (machine code)
                                                        →  linker  →  executable (ELF on Linux, PE .exe on Windows, Mach-O on Mac)
 
-Python / JavaScript    →  interpreter / JIT compiler turns it into bytecode and then machine code while running
+Python                 →  compiled to bytecode, which the CPython interpreter runs
+JavaScript             →  JIT compiler turns hot code into machine code while running
 ```
 Try it: **Compiler Explorer (godbolt.org)** shows the assembly for any C, C++, Rust or Go code, live.
 
@@ -309,18 +310,18 @@ Try it: **Compiler Explorer (godbolt.org)** shows the assembly for any C, C++, R
 - The **OS kernel** (Linux, Windows, macOS, Android) controls hardware and gives programs a safe way to use it through **system calls** (read a file, send a network packet, print text).
 - **Device drivers** translate between the OS and specific hardware.
 - **Interrupts:** hardware signals the CPU ("a key was pressed," "a packet arrived") so the CPU doesn't have to keep checking.
-- **What happens when you press "A":** the keyboard detects the switch → sends a scan code over USB (HID report) → a USB controller interrupt → the driver turns it into a key event → the OS sends it to the active app → the app stores `0x41` → the font engine turns it into pixels → the GPU sends pixels to the screen.
+- **What happens when you press "A":** the keyboard detects the switch → sends a HID usage code over USB (the A key is `0x04`) → a USB controller interrupt → the driver turns it into a key event → the OS sends it to the active app → the app stores `0x61` ('a'), or `0x41` ('A') with Shift → the font engine turns it into pixels → the GPU sends pixels to the screen.
 
 ### 1.12 Communication between devices: sending bits over wires and air
 
 #### Serial vs parallel
 - **Parallel:** many bits at once on many wires (old printers, inside chips). Fast over short distances.
-- **Serial:** one bit after another on one wire (USB, UART, Ethernet, PCIe lanes). Almost all modern links are serial.
+- **Serial:** one bit after another (UART on one wire; USB, Ethernet and PCIe on differential wire pairs, and Gigabit Ethernet uses 4 pairs at once). Almost all modern links are serial.
 
 #### How bits travel as signals
 - **Voltage levels:** e.g. 0 V = 0, 3.3 V or 5 V = 1 (TTL/CMOS logic).
 - **Line codes:** NRZ (high = 1, low = 0), **Manchester** (a transition in the middle of each bit, used in old Ethernet), block codes such as 8b/10b, 64b/66b and 128b/130b (used in USB, Ethernet and PCIe) that keep the signal balanced and the clocks in sync.
-- **Baud rate:** symbols per second (9600 baud ≈ 9600 bits/sec for simple serial).
+- **Baud rate:** symbols per second (9600 baud ≈ 9600 bits/sec for simple serial; with start and stop bits that's about 960 bytes/sec of data).
 - **Wireless:** bits are carried by changing a radio wave's **amplitude, frequency or phase** (ASK, FSK, PSK, QAM). Wi-Fi, Bluetooth, 4G/5G.
 - **Light:** fibre optics (light on = 1, off = 0, or more complex schemes); infrared TV remotes.
 
@@ -333,7 +334,7 @@ Try it: **Compiler Explorer (godbolt.org)** shows the assembly for any C, C++, R
 | **SPI** | MOSI, MISO, SCK, CS | Up to tens of MHz | SD cards, fast displays, flash chips | Full duplex, one chip-select wire per device |
 | **USB** | D+, D-, power (+ more in USB 3/4) | 1.5 Mb/s to 80 Gb/s | Everything | Packets, host-controlled, differential signalling |
 | **CAN bus** | CAN-H, CAN-L | Up to 1 Mb/s (CAN FD: more) | Cars, industrial machines | Robust, message priority |
-| **Ethernet** | Twisted pairs / fibre | 10 Mb/s to 400 Gb/s | Wired networks | Frames with MAC addresses + CRC |
+| **Ethernet** | Twisted pairs / fibre | 10 Mb/s to 800 Gb/s | Wired networks | Frames with MAC addresses + CRC |
 
 **UART frame for the letter "A" (0x41 = 01000001)**, sent least significant bit first:
 ```
@@ -343,7 +344,7 @@ idle  start  b0 b1 b2 b3 b4 b5 b6 b7  stop  idle
 
 #### Error detection (because noise flips bits)
 - **Parity bit:** add 1 bit so the count of 1s is even (or odd). Detects a single flipped bit.
-- **Checksum:** add up the bytes, send the sum (used in IP and TCP headers).
+- **Checksum:** add up the data and send the sum. IP and TCP use a 16-bit ones'-complement sum of 16-bit words. A simple sum can't detect bytes that are swapped.
 - **CRC (Cyclic Redundancy Check):** polynomial maths, catches most errors (Ethernet, ZIP, PNG). `zlib.crc32(b'Hi')` = `0x4d170e0e`.
 - **Error-correcting codes** (Hamming, Reed-Solomon, LDPC): can **fix** errors, not just detect them (QR codes, CDs, Wi-Fi, 5G, space probes).
 
@@ -374,7 +375,7 @@ A **subnet mask** like 255.255.255.0 (`/24`) = 24 ones then 8 zeros: the first 2
 ```python
 import socket
 
-with socket.create_server(("127.0.0.1", 5000)) as srv:
+with socket.create_server(("127.0.0.1", 50007)) as srv:
     conn, addr = srv.accept()
     with conn:
         data = conn.recv(1024)
@@ -386,10 +387,10 @@ with socket.create_server(("127.0.0.1", 5000)) as srv:
 ```python
 import socket
 
-with socket.create_connection(("127.0.0.1", 5000)) as s:
+with socket.create_connection(("127.0.0.1", 50007)) as s:
     s.sendall("Hello".encode("utf-8"))
 ```
-Run the server in one terminal, then the client in another. The server prints:
+Run the server in one terminal, then the client in another. (Port 50007 is used because macOS reserves port 5000 for AirPlay.) The server prints:
 ```
 raw bits: 01001000 01100101 01101100 01101100 01101111
 decoded : Hello
@@ -425,10 +426,11 @@ broken = bytearray(f)
 broken[3] ^= 0b00000100   # flip one bit to simulate noise
 read_frame(bytes(broken)) # ValueError: checksum failed: data corrupted
 ```
+**Limits of this simple design:** a byte-sum can't detect swapped bytes, a corrupted length byte causes an `IndexError`, and a `0x7E` inside the payload isn't escaped. Real protocols fix these with CRCs and byte-stuffing (Day 29).
 
 ### 1.15 Hardware project: blink binary with an Arduino
 
-Works on a real Arduino Uno or free in the **Wokwi** browser simulator. The built-in LED on pin 13 flashes each character's 8 bits (on = 1, off = 0), and the Serial Monitor prints them.
+Works on a real Arduino Uno or free in the **Wokwi** browser simulator. The built-in LED on pin 13 flashes each character's 8 bits (on = 1, off = 0), and the Serial Monitor prints them. This is **our own optical protocol** (start = light on, most significant bit first), not UART.
 
 ```cpp
 const int LED = 13;
@@ -455,7 +457,8 @@ void setup() {
 void loop() {
   const char *msg = "HI";
   for (int i = 0; msg[i] != '\0'; i++) {
-    Serial.println((byte)msg[i], BIN);
+    for (int b = 7; b >= 0; b--) Serial.print((msg[i] >> b) & 1);  // all 8 bits, with leading zeros
+    Serial.println();
     sendByte(msg[i]);
   }
   delay(3000);
@@ -497,7 +500,7 @@ About **1 to 1.5 hours per day**. Keep a notebook: write every conversion by han
 |---|---|---|
 | 8 | ASCII (1.6) | Write your name in binary by hand. Decode `01001000 01100101 01101100 01101100 01101111` |
 | 9 | Unicode and UTF-8 | Encode `₹`, a letter from your mother tongue, and an emoji by hand using the UTF-8 table, then check in Python |
-| 10 | Images, sound, files, magic numbers (1.7) | Open a PNG and a PDF with `od -A x -t x1z file | head` (or Format-Hex on Windows) and find the magic numbers |
+| 10 | Images, sound, files, magic numbers (1.7) | Open a PNG and a PDF with `od -A x -t x1z file | head` (Mac: `xxd file | head`; Windows: Format-Hex) and find the magic numbers |
 | 11 | Logic gates + truth tables (1.8) | Create a free CircuitVerse account. Build NOT, AND, OR, XOR and test every input |
 | 12 | Build all gates from NAND only | In CircuitVerse, build NOT, AND and OR using only NAND gates |
 | 13 | Half adder → full adder → 4-bit adder | Build them in CircuitVerse. Add 0110 + 0111 and see 1101 |
@@ -521,11 +524,11 @@ About **1 to 1.5 hours per day**. Keep a notebook: write every conversion by han
 |---|---|---|
 | 22 | Serial vs parallel, signals, line codes (1.12) | Draw the UART frame for "H" and "i" by hand (start, 8 bits LSB first, stop) |
 | 23 | UART + Arduino in **Wokwi** (1.15) | Run the binary-blink sketch. Watch the LED and the Serial Monitor |
-| 24 | I2C and SPI | In Wokwi, connect an I2C LCD or sensor to an Arduino. Read its address |
+| 24 | I2C and SPI | In Wokwi, connect an I2C LCD or sensor to an Arduino and run the standard "I2C scanner" sketch (from the Arduino Wire library examples) to read its address |
 | 25 | Error detection: parity, checksum, CRC | Write Python that adds an even-parity bit to each byte. Flip a bit and detect it |
 | 26 | Networking: TCP/IP, IPs in binary, subnets (1.13) | Convert your IP and subnet mask to binary. Run `ping` and `traceroute` (`tracert` on Windows) |
 | 27 | Sockets: send binary between programs | Run `server.py` and `client.py`. Modify them to send a number as 4 bytes with `struct` |
-| 28 | Watch packets live | Install **Wireshark**, capture while you load a website, find the DNS query and the TCP handshake |
+| 28 | Watch packets live | Install **Wireshark**, capture while running `curl http://example.com`, and filter `dns || tcp.flags.syn==1` to find the DNS query and the TCP handshake (browsers often hide these with HTTP/3 and secure DNS) |
 | 29 | Your own protocol (1.14) | Extend the frame protocol: add a message type byte and CRC32 instead of the sum |
 | 30 | **Final project** | Build a chat between two programs (or two Arduinos) using **your own binary protocol**, with framing and error detection. Explain every bit of one message on paper |
 

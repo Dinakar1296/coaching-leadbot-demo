@@ -17,12 +17,12 @@ Boxing is a combat sport where two people punch with padded gloves, **above the 
 | | Amateur (Olympic-style) | Professional |
 |---|---|---|
 | Governing bodies | **World Boxing** internationally. In India, the **Boxing Federation of India (BFI)**, recognised national federation and World Boxing member | WBC, WBA, IBF, WBO + national commissions |
-| Rounds | Usually **3 rounds x 3 minutes**, 1 minute rest | 4 to 12 rounds x 3 minutes |
+| Rounds | Usually **3 rounds x 3 minutes**, 1 minute rest | 4 to 12 rounds x 3 minutes (women's pro rounds are usually 2 minutes) |
 | Protection | Mouthguard, groin protector. Headgear for youth and many amateur levels | Mouthguard, groin, no headgear |
 | Scoring | 10-point must system per round, judges score clean punches, control and activity | 10-point must system |
 | Goal | Points, clean technique | Points, knockouts |
 
-**Indian inspiration:** Vijender Singh (Olympic bronze 2008, first Indian boxing Olympic medal), M.C. Mary Kom (Olympic bronze 2012, six-time world champion), Lovlina Borgohain (Olympic bronze Tokyo 2020), Nikhat Zareen (world champion 2022 and 2023).
+**Indian inspiration:** Vijender Singh (Olympic bronze 2008, first Indian boxing Olympic medal), M.C. Mary Kom (Olympic bronze 2012, six-time world champion), Lovlina Borgohain (Olympic bronze Tokyo 2020), Nikhat Zareen (world champion 2022 and 2023), and Jaismine Lamboria (57 kg) and Minakshi Hooda (48 kg), world champions at Liverpool in September 2025.
 
 **Boxing styles (you will develop one over years):**
 - **Out-boxer:** long range, jab and move (Muhammad Ali)
@@ -40,7 +40,7 @@ Boxing is a combat sport where two people punch with padded gloves, **above the 
 | **Mouthguard** | Boil-and-bite (or custom from a dentist later) | ₹300 to ₹2,000 | Needed once partner drills start |
 | **Shoes** | Flat, grippy, light (boxing shoes or flat trainers) | ₹1,500+ | Avoid thick running cushions (ankle rolls) |
 | **Heavy bag** (optional at home) | 4 to 5 ft, 30 to 50 kg, filled | ₹3,000 to ₹10,000 | Or train at a gym |
-| **Interval timer app** | Free (e.g. "Boxing Timer," "Round Timer") | Free | Set 3 min rounds / 1 min rest |
+| **Interval timer app** | Free (e.g. "Boxing Timer," "Round Timer") | Free | Set 2-minute rounds / 1 min rest for Weeks 1 and 2, then 3-minute rounds |
 | **Later:** headgear, groin guard, sparring gloves (16 oz), focus mitts | | ₹2,000 to ₹8,000 | When you start partner work and sparring |
 
 ### 1.3 How to wrap your hands (standard 180 inch wrap)
@@ -54,7 +54,7 @@ Boxing is a combat sport where two people punch with padded gloves, **above the 
 7. Finish with the remaining wrap **around the wrist** and close the Velcro.
 8. **Check:** make a fist. It should feel firm and supported but your fingers must not go numb or cold.
 
-Wraps protect the small bones in your hand (a "boxer's fracture" is a break of the 4th or 5th metacarpal, usually from punching with bad form or no wraps) and stabilise your wrist.
+Wraps protect the small bones in your hand (a "boxer's fracture" is a break of the neck of the 5th, sometimes 4th, metacarpal, typically from untrained punching of hard objects; trained boxers more often hurt the 2nd and 3rd knuckles) and stabilise your wrist.
 
 ### 1.4 The stance (everything starts here)
 
@@ -82,7 +82,7 @@ Wraps protect the small bones in your hand (a "boxer's fracture" is a break of t
 
 **Basic footwork drills:**
 1. **Step-drag** forward, back, left, right (in a square pattern, 1 step each direction).
-2. **Pivot:** on the ball of your lead foot, swing your rear foot around to change the angle (orthodox usually pivots left/clockwise away from the opponent's power hand).
+2. **Pivot:** on the ball of your lead foot, swing your rear foot around to change the angle (orthodox: pivot on the lead foot and swing the rear foot so you turn to your left, ending up outside the opponent's lead shoulder and away from their right hand).
 3. **Circle:** step-drag laterally around a centre point (a cone or bag).
 4. **In and out:** step in with a jab, step out immediately.
 5. **Rope line drill:** lay a rope on the floor and move along and across it while keeping your stance.
@@ -166,7 +166,7 @@ Boxing needs **aerobic endurance** (last all rounds), **anaerobic power** (explo
 - **Cardio:** running 2 to 4 times a week (steady runs + intervals such as 30 seconds fast / 30 seconds slow), skipping, stairs.
 - **Strength (2 to 3 times a week):** squats, lunges, deadlifts / hip hinges, push-ups, pull-ups / rows, overhead press, medicine ball throws (rotational power), glute bridges.
 - **Core:** planks, side planks, dead bugs, Russian twists, hanging knee raises, bicycle crunches. **Core rotation = punch power.**
-- **Neck:** gentle neck bridges on a mat (only if you have no neck issues), neck flexion/extension with hand resistance. A strong neck may reduce head whip.
+- **Neck:** start with gentle isometrics (press your hand against your head front, back and sides, 10 seconds each) or light band work. Leave neck bridges for coached settings. A strong neck may reduce head whip.
 - **Mobility:** hips, thoracic spine (upper back rotation), shoulders, ankles.
 - **Round-based work:** do conditioning in **3-minute rounds with 1-minute rest** so your body learns boxing rhythm.
 
@@ -187,12 +187,14 @@ Boxing needs **aerobic endurance** (last all rounds), **anaerobic power** (explo
 ### 1.13 Safety and brain health
 
 - **Concussion signs:** headache, dizziness, confusion, nausea, blurred vision, ringing ears, memory problems, sensitivity to light or noise, feeling "foggy." **Stop training immediately and see a doctor.** No contact until medically cleared, and follow a gradual return plan.
-- **Headgear** protects mainly against cuts and some impact but **does not prevent concussions**, because the brain still moves inside the skull. Research suggests it can even give a false sense of security. Smart, controlled sparring and good defence matter more.
+- **Headgear:** the evidence is **mixed**. Lab tests show approved headguards **roughly halve angular head acceleration** and greatly reduce cuts (McIntosh and Patton, *BJSM* 2015). Elite men's amateur boxing dropped headguards in 2013, and data showed fewer head-blow stoppages but many more cuts (Loosemore et al., 2017). No headgear can eliminate concussion risk, because the brain can still move inside the skull. **Beginners should always wear headgear for sparring**, and controlled sparring and good defence matter most.
 - **Build defence first**, so you take fewer hits over your lifetime.
 - **Never train with a bad partner** who goes hard on beginners. Tap gloves, agree on intensity.
 - **Hands:** always wrap. Punch with correct alignment (wrist straight, first two knuckles).
 - **Shoulders:** don't overextend punches; strengthen your rotator cuffs with light band work.
 - **Stop** if you feel sharp pain in a joint.
+- **Before you start:** answer a simple pre-exercise health questionnaire (the PAR-Q). If you answer yes to any question (chest pain, dizziness, heart or bone problems, medication for blood pressure), see a doctor first.
+- **Heat:** in Indian summers, train early morning or evening, drink water and electrolytes, and stop at the first sign of heat illness (dizziness, headache, nausea, confusion, no sweating).
 
 ### 1.14 Basic rules and fouls (for when you start partner work)
 
@@ -202,7 +204,7 @@ Boxing needs **aerobic endurance** (last all rounds), **anaerobic power** (explo
 
 ### 1.15 Boxing in India: where to train and how to progress
 
-1. **Find a coach or club:** local boxing clubs and academies, **SAI (Sports Authority of India) centres** and **Khelo India** centres, school and college teams, police and army boxing units (for recruits), and many fitness gyms with boxing coaches. Check that the coach has **NIS certification** (National Institute of Sports, Patiala) or experience as a competitive boxer.
+1. **Find a coach or club:** local boxing clubs and academies, **SAI (Sports Authority of India) centres** and **Khelo India** centres, school and college teams, police and army boxing units (for recruits), and many fitness gyms with boxing coaches. Check that the coach has a coaching diploma from the **Netaji Subhas National Institute of Sports (NSNIS, "NIS") Patiala**, part of SAI, or experience as a competitive boxer.
 2. **Join competitions:** district boxing association → state championship → nationals. The official pathway runs through **state associations affiliated to the Boxing Federation of India (BFI)**. Ask your club to register you. Beware of unaffiliated bodies with similar names if you want an official competitive path.
 3. **Age groups:** sub-junior, junior, youth and elite (senior), plus separate weight categories.
 4. **Medical check** is needed before competing.
@@ -220,7 +222,7 @@ Boxing needs **aerobic endurance** (last all rounds), **anaerobic power** (explo
 
 ## Part 2: 30-Day Plan
 
-**Frequency:** 6 days a week, 45 to 75 minutes. **Day 7 each week is active rest** (walk, stretch, mobility).
+**Frequency:** 6 days a week, 45 to 75 minutes, but **heavy-bag work on only 3 to 4 of them** (make the other days shadowboxing, footwork and conditioning). **Day 7 each week is active rest.** If your knuckles, wrists or shoulders ache, drop a bag day.
 **Every session starts** with the warm-up (1.11) and **ends** with the cool-down.
 **Rounds:** start with **2-minute rounds / 1-minute rest**, move to **3-minute rounds** from Week 3.
 **No sparring for these 30 days.** Partner drills are optional, light and controlled.
@@ -233,7 +235,7 @@ Boxing needs **aerobic endurance** (last all rounds), **anaerobic power** (explo
 | 2 | **Footwork: step-drag in 4 directions** | 4 rounds footwork drills (square pattern, stance stays perfect). 3 rounds shadowboxing only moving and keeping your guard up. 3 x 10 bodyweight squats, 3 x 8 push-ups (knees OK) |
 | 3 | **Jab (1)** | 3 rounds slow jab in the mirror (focus: snap, shoulder up, return). 3 rounds jab + step-drag forward and back. 3 rounds bag or air jabs. 3 rounds skipping |
 | 4 | **Cross (2)** | 3 rounds slow cross (pivot rear foot, hip rotation). 3 rounds 1-2 shadowboxing. 3 rounds 1-2 on the bag. Core: dead bugs 3 x 10 each side |
-| 5 | **Defence: high guard + catch + parry** | 2 rounds shadowbox 1-2 with a high guard after every combo. With a partner (light) or mentally: catch and parry the jab. 3 rounds bag 1, 1-1, 1-2. 20 min easy run or brisk walk |
+| 5 | **Defence: high guard + catch + parry** | 2 rounds shadowbox 1-2 with a high guard after every combo. Catch and parry drill: a partner (both wearing gloves **and mouthguards**) jabs slowly at a **pad held beside your head** or stops short. No head contact. 3 rounds bag 1, 1-1, 1-2. 20 min easy run or brisk walk |
 | 6 | **Put it together + conditioning** | 4 rounds shadowbox (1, 1-1, 1-2, move after each). 4 rounds bag. Circuit x 3: 10 squats, 10 push-ups, 20 mountain climbers, 30 sec plank |
 | 7 | **Active rest** | 30 min walk, full-body stretching, review videos of the jab and cross |
 
@@ -242,7 +244,7 @@ Boxing needs **aerobic endurance** (last all rounds), **anaerobic power** (explo
 | Day | Skill focus | Session |
 |---|---|---|
 | 8 | **Lead hook (3)** | 3 rounds slow hook (90-degree elbow, pivot the lead foot). 3 rounds 1-2-3 shadow. 3 rounds bag 3 and 1-2-3. Skipping 3 rounds |
-| 9 | **Slip** (vs jab and cross) | Slip rope/string drill (tie a string at chin height, move under and along it) or slip a partner's slow jabs. 3 rounds: slip left, slip right, counter with 2 or 1. 3 rounds bag. Core circuit |
+| 9 | **Slip** (vs jab and cross) | Slip rope/string drill (tie a string at chin height, move under and along it) or slip a slip bag / a partner's slow jabs aimed at a held pad (gloves + mouthguards, no head contact). 3 rounds: slip left, slip right, counter with 2 or 1. 3 rounds bag. Core circuit |
 | 10 | **Uppercuts (5 and 6)** | 3 rounds slow uppercuts (legs drive, hand stays up). 3 rounds shadow 1-2-5-2, 1-6-3-2. 3 rounds bag close range. Strength: 3 x 10 lunges each leg, 3 x 8 rows or pull-ups |
 | 11 | **Rear hook (4) + footwork pivot** | 3 rounds pivot drills around a bag. 3 rounds 1-2-3-4. 3 rounds bag: combo then pivot out. 20 to 25 min run with 6 x 30 sec fast intervals |
 | 12 | **Body shots** | 3 rounds: level change (bend the knees) with 1b, 2b, 3b. 3 rounds 1-2-3b-3. 3 rounds bag body-head. Core: side planks 3 x 20 sec each side, Russian twists |
@@ -258,7 +260,7 @@ Boxing needs **aerobic endurance** (last all rounds), **anaerobic power** (explo
 | 17 | **Pad work** (with a partner or coach if possible), else double-end or reflex ball | 4 rounds pad/mitt work (1-2, 1-2-3, slip-2, roll-3-2) or reflex ball. 3 rounds bag. 25 min run |
 | 18 | **Angles: pivot, step off the line** | 3 rounds combos → pivot out. 3 rounds circle the bag (both directions) punching at angles. Core circuit |
 | 19 | **Speed and rhythm** | 6 rounds of 30 sec fast straight punches / 30 sec slow technique. 3 rounds skipping (with double-unders attempts). Neck work (gentle), band shoulder work |
-| 20 | **Power** | 5 rounds bag: 5 hard single punches with perfect form then 20 seconds of fast combos. Medicine ball rotational throws (or shadow with light dumbbells, max 0.5 to 1 kg, slow). Strength session |
+| 20 | **Power** | 5 rounds bag: 5 hard single punches with perfect form then 20 seconds of fast combos. Medicine ball rotational throws (or resistance-band punches; avoid punching with dumbbells, which stresses elbows and shoulders). Strength session |
 | 21 | **Active rest** | Mobility, stretch, walk. Watch one full classic fight and note 3 techniques |
 
 ### Week 4: Combinations, flow and your first "fight simulation"
@@ -269,7 +271,7 @@ Boxing needs **aerobic endurance** (last all rounds), **anaerobic power** (explo
 | 23 | **Inside fighting** (short hooks, uppercuts at close range) | 3 rounds close-range bag work (head on the bag's side, short shots). 3 rounds 5-6-3-4. Strength circuit |
 | 24 | **Outside fighting** (jab and move) | 4 rounds: only 1, 1-1, 1-2 with constant movement. 3 rounds bag, in and out. 30 min run with intervals |
 | 25 | **Defensive round work** | 3 rounds partner (light, body-only or glove targets) or shadow: defence only. 3 rounds: defence → counter. Core + neck |
-| 26 | **Conditioning test** | 6 rounds x 3 min bag, 1 min rest (the pace of a real bout). Record how you felt each round |
+| 26 | **Conditioning test** | 6 rounds x 3 min bag, 1 min rest, at bout intensity (twice the length of an amateur bout). Record how you felt each round |
 | 27 | **Technique polish** | Film 2 rounds of shadowboxing. Fix your top 3 mistakes. 4 rounds focused drills on those mistakes |
 | 28 | **Active rest** | Walk, stretch, light mobility |
 | 29 | **Fight simulation** | 3 rounds x 3 min shadowboxing at full intensity (like an amateur bout) + 3 rounds x 3 min bag at full intensity, 1 min rest |
@@ -299,8 +301,8 @@ Boxing needs **aerobic endurance** (last all rounds), **anaerobic power** (explo
 
 **Books**
 - *Championship Fighting*, Jack Dempsey (classic on power and the "falling step")
-- *Boxing: Advanced Tactics and Strategies*, Mark Hatmaker
-- *The Boxing Bible*, Andy Dumas and Jeremy Laxton
+- *Boxing Mastery: Advanced Technique, Tactics, and Strategies from the Sweet Science*, Mark Hatmaker with Doug Werner
+- *Successful Boxing: The Ultimate Training Manual*, Andy Dumas
 
 **Fights to study**
 - Muhammad Ali vs Cleveland Williams (1966): footwork and jab
@@ -314,13 +316,14 @@ Boxing needs **aerobic endurance** (last all rounds), **anaerobic power** (explo
 
 - [Boxing Federation of India, Wikipedia](https://en.wikipedia.org/wiki/Boxing_Federation_of_India)
 - [Boxing in India, Wikipedia](https://en.wikipedia.org/wiki/Boxing_in_India)
-- [World Boxing: Glasgow 2026 weight categories](https://worldboxing.org/weight-categories-confirmed-for-glasgow-2026-which-will-be-first-ever-commonwealth-games-to-feature-same-number-of-weight-classes-for-men-and-women/)
+- [World Boxing Championships 2025: India's medal winners, Olympics.com](https://www.olympics.com/en/news/world-boxing-championships-2025-india-medal-winners-champions)
 - [The Beginner's Guide to Boxing, Expert Boxing](https://expertboxing.com/the-beginners-guide-to-boxing)
 - [Beginner Boxing Skills Guide, Legends Boxing](https://legendsboxing.com/blog/boxing-skills-for-beginners/)
 - [Boxing for Beginners: Top 10 Mistakes, My Boxing Coach](https://www.myboxingcoach.com/boxing-for-beginners-top-10-mistakes-to-avoid/)
 - [Bob and weave, Wikipedia](https://en.wikipedia.org/wiki/Bob_and_weave)
 - [Boxing training, Wikipedia](https://en.wikipedia.org/wiki/Boxing_training)
 - [Headgear (martial arts), Wikipedia](https://en.wikipedia.org/wiki/Headgear_(martial_arts))
-- [Does Boxing Headgear Prevent Concussions?, RDX Sports](https://blogs.rdxsports.com/does-boxing-headgear-prevent-concussions/)
-- [Common Boxing Injuries, RDX Sports](https://blogs.rdxsports.com/injury-in-boxing/)
-- [A Guide to USA Boxing (PDF)](https://aart.assembly.ca.gov/sites/aart.assembly.ca.gov/files/USA%20Boxing%20Guide%20-%20Mike%20McAtee.pdf)
+- [Boxing headguard performance in punch machine tests, McIntosh and Patton, BJSM (2015)](https://www.semanticscholar.org/paper/Boxing-headguard-performance-in-punch-machine-tests-McIntosh-Patton/5c2b96d467ecaa7789a00fe490a40885d5d32a52)
+- [Use of head guards in AIBA boxing tournaments, Clinical Journal of Sport Medicine (2017)](https://journals.lww.com/cjsportsmed/fulltext/2017/01000/use_of_head_guards_in_aiba_boxing_tournaments_a.13.aspx)
+- [Headguards in amateur boxing review, PMC (2025)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12084430/)
+- [Andy Dumas books, Goodreads](https://www.goodreads.com/author/show/876419.Andy_Dumas)
